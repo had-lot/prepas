@@ -84,8 +84,8 @@
         <a onclick="document.getElementById('accueil').scrollIntoView({behavior:'smooth'}); return false;">Accueil</a>
         <a onclick="document.getElementById('mp').scrollIntoView({behavior:'smooth'}); return false;">MP</a>
         <a onclick="document.getElementById('mpsi').scrollIntoView({behavior:'smooth'}); return false;">MPSI</a>
-        <a onclick="document.getElementById('pcpt').scrollIntoView({behavior:'smooth'}); return false;">PC / PT</a>
-        <a onclick="document.getElementById('pcsi').scrollIntoView({behavior:'smooth'}); return false;">PCSI / PTSI</a>
+        <a onclick="document.getElementById('pcpt').scrollIntoView({behavior:'smooth'}); return false;">PC/PT</a>
+        <a onclick="document.getElementById('pcsi').scrollIntoView({behavior:'smooth'}); return false;">PCSI/PTSI</a>
         <a onclick="document.getElementById('concours').scrollIntoView({behavior:'smooth'}); return false;">Concours Nationaux tunisiens</a>
         <a onclick="document.getElementById('liens').scrollIntoView({behavior:'smooth'}); return false;">Liens & Contact</a>
         <a onclick="document.getElementById('actualites').scrollIntoView({behavior:'smooth'}); return false;">📰 Actualités</a>
@@ -258,7 +258,7 @@
     <section class="section" id="news">
         <div class="ambulance-alert"><span class="siren">🚨</span><h2>News</h2><span class="siren">🚨</span></div>
         <div class="content">
-            <div id="news-content" class="subcontent" data-path="News"><div class="file-list">Chargement...</div></div>
+            <div id="test-news-content" class="subcontent" data-path="News"><div class="file-list">Chargement...</div></div>
         </div>
     </section>
 
@@ -293,7 +293,7 @@ async function chargerDossier(containerId, path) {
         let html = "";
         for (const f of folders) {
             const subId = containerId + "_" + f.name.replace(/[^a-z0-9]/gi, "_");
-            html += `<div class="folder-item"><div class="folder-title" onclick="event.stopPropagation(); toggleFolder(this)">📁 ${f.name}</div><div id="${subId}" class="folder-content" data-path="${path}/${f.name}"></div></div>`;
+            html += `<div class="folder-item"><div class="folder-title" onclick="event.stopPropagation(); toggleFolder(this)">${f.name}</div><div id="${subId}" class="folder-content" data-path="${path}/${f.name}"></div></div>`;
             setTimeout(() => chargerDossier(subId, `${path}/${f.name}`), 50);
         }
         if (pdfs.length) {
