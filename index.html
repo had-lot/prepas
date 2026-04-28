@@ -89,7 +89,7 @@
         <a onclick="document.getElementById('concours').scrollIntoView({behavior:'smooth'}); return false;">Concours Nationaux tunisiens</a>
         <a onclick="document.getElementById('liens').scrollIntoView({behavior:'smooth'}); return false;">Liens & Contact</a>
         <a onclick="document.getElementById('actualites').scrollIntoView({behavior:'smooth'}); return false;">📰 Actualités</a>
-        <a onclick="document.getElementById('news').scrollIntoView({behavior:'smooth'}); return false;">🚨 News Flash</a>
+        <a onclick="document.getElementById('news').scrollIntoView({behavior:'smooth'}); return false;">🚨News</a>
     </nav>
 
     <!-- ACCUEIL -->
@@ -254,9 +254,9 @@
         </div>
     </section>
 
-    <!-- NEWS FLASH -->
+    <!-- News -->
     <section class="section" id="news">
-        <div class="ambulance-alert"><span class="siren">🚨</span><h2>DERNIÉRES NEWS</h2><span class="siren">🚨</span></div>
+        <div class="ambulance-alert"><span class="siren">🚨</span><h2>News</h2><span class="siren">🚨</span></div>
         <div class="content">
             <div id="news-content" class="subcontent" data-path="News"><div class="file-list">Chargement...</div></div>
         </div>
@@ -265,8 +265,8 @@
 </div>
 
 <script>
-const USER = "lebeauroi";
-const REPO = "lotfi-haddad";
+const USER = "had-lot";
+const REPO = "prepas";
 const BRANCH = "main";
 
 async function chargerDossier(containerId, path) {
