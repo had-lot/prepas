@@ -53,9 +53,7 @@
         .livres-list li::before { content: "📚"; position: absolute; left: -5px; color: inherit; }
         .citation { font-style: italic; background: #f9f3e0; padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 5px solid #ffd966; }
         .email-link { color: #2a5298; text-decoration: none; font-weight: bold; }
-        .ambulance-alert { background: #c0392b; color: white; padding: 15px; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
-        .ambulance-alert .siren { font-size: 30px; animation: pulse 1s infinite; }
-        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+       
         .legal-notice {
             background-color: #1e3c72;
             color: white;
@@ -66,7 +64,9 @@
         }
         .legal-notice h3 { color: #ffd966; margin-bottom: 10px; }
         .legal-notice ul { margin-top: 10px; padding-left: 20px; }
+        
     </style>
+  
 </head>
 <body>
 <div class="container">
@@ -136,7 +136,7 @@
 
 <!-- Maths 1 MP -->
 <section class="section" id="maths1">
-    <h2 onclick="this.parentElement.classList.toggle('open')">📐 Maths 1 MP (Deuxième année)</h2>
+    <h2 onclick="this.parentElement.classList.toggle('open')">📐 Maths 1 MP (Deuxième année Mathématiques et Physique)</h2>
     <div class="content">
         <div class="subsection">
             <h3 onclick="this.parentElement.classList.toggle('open')">Cours</h3>
@@ -156,7 +156,7 @@
         </div>
         <div class="subsection">
             <h3 onclick="this.parentElement.classList.toggle('open')">Problemes</h3>
-            <div id="maths1-prob" class="subcontent" data-path="Maths_1/Problèmes"><div class="file-list">Chargement...</div></div>
+            <div id="maths1-prob" class="subcontent" data-path="Maths_1/Problemes"><div class="file-list">Chargement...</div></div>
         </div>
         <div class="subsection">
             <h3 onclick="this.parentElement.classList.toggle('open')">Divers</h3>
@@ -167,7 +167,7 @@
 
 <!-- Maths 2 MP -->
 <section class="section" id="maths2">
-    <h2 onclick="this.parentElement.classList.toggle('open')">📐 Maths 2 MP (Deuxième année)</h2>
+    <h2 onclick="this.parentElement.classList.toggle('open')">📐 Maths 2 MP (Deuxième année Mathématiques et Phusique)</h2>
     <div class="content">
         <div class="subsection">
             <h3 onclick="this.parentElement.classList.toggle('open')">Cours</h3>
@@ -187,7 +187,7 @@
         </div>
         <div class="subsection">
             <h3 onclick="this.parentElement.classList.toggle('open')">Problemes</h3>
-            <div id="maths2-prob" class="subcontent" data-path="Maths_2/Problèmes"><div class="file-list">Chargement...</div></div>
+            <div id="maths2-prob" class="subcontent" data-path="Maths_2/Problemes"><div class="file-list">Chargement...</div></div>
         </div>
         <div class="subsection">
             <h3 onclick="this.parentElement.classList.toggle('open')">Divers</h3>
@@ -295,13 +295,15 @@
         </div>
     </section>
 
-    <!-- News -->
-    <section class="section" id="news">
-        <div class="ambulance-alert"><span class="siren">🚨</span><h2>News</h2><span class="siren">🚨</span></div>
-        <div class="content">
-            <div id="test-news-content" class="subcontent" data-path="News"><div class="file-list">Chargement...</div></div>
-        </div>
-    </section>
+   <!-- News -->
+<section class="section" id="news">
+    <div style="background-color: #8B0000; color: white; padding: 15px; border-radius: 10px;">
+        <h2 style="color: white; margin: 0; border-bottom: none;">📢 News</h2>
+    </div>
+    <div class="content">
+        <div id="test-news-content" class="subcontent" data-path="News"><div class="file-list">Chargement...</div></div>
+    </div>
+</section>
 
 
 
