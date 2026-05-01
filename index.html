@@ -219,9 +219,7 @@
             <div class="subcontent">
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Cours</div><div id="mpsi-alg-cours" class="folder-content" data-path="MPSI/Algebre/Cours"></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Devoirs</div><div id="mpsi-alg-devoirs" class="folder-content" data-path="MPSI/Algebre/Devoirs"></div></div>
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">TD</div><div id="mpsi-alg-td" class="folder-content" data-path="MPSI/Algebre/TD">
-
-</div></div>
+                <div id="mpsi-alg-td" class="folder-content" data-path="MPSI/Algebre/TD"></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Archives</div><div id="mpsi-alg-arch" class="folder-content" data-path="MPSI/Algebre/Archives"></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Problemes</div><div id="mpsi-alg-prob" class="folder-content" data-path="MPSI/Algebre/Problemes"></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Divers</div><div id="mpsi-alg-div" class="folder-content" data-path="MPSI/Algebre/Divers"></div></div>
@@ -289,7 +287,14 @@
         <!-- Vous ajoutez ici les actualités des concours 2026 -->
     </div>
 </section>
-
+<!-- LIENS & CONTACT -->
+<section class="section" id="liens">
+    <h2>🔗 Liens et Contact</h2>
+    <div class="content">
+        <p>📚 <strong>Sites et ressources utiles</strong></p>
+        <p>💡 Pour toute question ou remarque, n'hésitez pas à me contacter.</p>
+    </div>
+</section>
 
 <script>
 const USER = "had-lot";
@@ -339,7 +344,10 @@ function toggleFolder(element) {
         const isOpen = content.style.display === "block";
         content.style.display = isOpen ? "none" : "block";
         const path = content.getAttribute("data-path");
-        if (path && !content.hasAttribute("data-loaded")) chargerDossier(content.id, path);
+        if (path && !content.hasAttribute("data-loaded")) {
+            chargerDossier(content.id, path);
+            content.setAttribute("data-loaded", "true");
+        }
     }
 }
 
