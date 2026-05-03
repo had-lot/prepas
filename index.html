@@ -346,15 +346,17 @@ async function chargerDossier(containerId, path) {
             html += `<div class="folder-item"><div class="folder-title" onclick="event.stopPropagation(); toggleFolder(this)">${f.name}</div><div id="${subId}" class="folder-content" data-path="${path}/${f.name}"></div></div>`;
             setTimeout(() => chargerDossier(subId, `${path}/${f.name}`), 50);
         }
-        if (pdfs.length) {
-            html += `<div class="file-list"><ul>`;
-            for (const p of pdfs) html += `<li>📄 <a href="${p.download_url}" target="_blank" style="color:#2a5298; text-decoration:none;">${p.name.replace(/\.pdf$/i, "")}</a></li>`;
-            html += `</ul></div>`;
-        }
-        if (folders.length === 0 && pdfs.length === 0) html = "<div class='file-list'>📭 Aucun fichier</div>";
-        container.innerHTML = html;
-    } catch { container.innerHTML = "<div class='file-list'>❌ Erreur chargement</div>"; }
+       if (pdfs.length) {
+    html += `<div class="file-list"><ul>`;
+    for (const p of pdfs) {
+        // Construction de l'URL brute pour les fichiers LFS
+        const rawUrl = `https://raw.githubusercontent.com/${USER}/${REPO}/${BRANCH}/${path}/${p.name}`;
+        html += `<li>📄 <a href="${rawUrl}" target="_blank" style="color:#2a5298; text-decoration:none;">${p.name.replace(/\.pdf$/i, "")}</a></li>`;
+    }
+    html += `</ul></div>`;
 }
+if (folders.length === 0 && pdfs.length === 0) html = "<div class='file-list'>📭 Aucun fichier</div>";
+container.innerHTML = html;
 
 function toggleFolder(element) {
     const content = element.nextElementSibling;
