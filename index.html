@@ -331,29 +331,21 @@ async function chargerDossier(containerId, path) {
             html += `<div class="folder-item"><div class="folder-title" onclick="event.stopPropagation(); toggleFolder(this)">${f.name}</div><div id="${subId}" class="folder-content" data-path="${path}/${f.name}"></div></div>`;
             setTimeout(() => chargerDossier(subId, `${path}/${f.name}`), 50);
         }
-       if (pdfs.length) {
-    html += `<div class="file-list"><ul>`;
-    for (const p of pdfs) {
-        const encodedPath = path.split('/').map(segment => encodeURIComponent(segment)).join('/');
-        const rawUrl = `https://media.githubusercontent.com/media/${USER}/${REPO}/${BRANCH}/${encodedPath}/${p.name}`;
-        html += `<li>📄 <a href="${rawUrl}" target="_blank" style="color:#2a5298; text-decoration:none;">${p.name.replace(/\.pdf$/i, "")}</a></li>`;
-    }
-    html += `</ul></div>`;
-}
-
-function toggleFolder(element) {
-    const content = element.nextElementSibling;
-    if (content) {
-        const isOpen = content.style.display === "block";
-        content.style.display = isOpen ? "none" : "block";
-        const path = content.getAttribute("data-path");
-        if (path && !content.hasAttribute("data-loaded")) {
-            chargerDossier(content.id, path);
-            content.setAttribute("data-loaded", "true");
+        if (pdfs.length) {
+            html += `<div class="file-list"><ul>`;
+            for (const p of pdfs) {
+                const encodedPath = path.split('/').map(segment => encodeURIComponent(segment)).join('/');
+                const rawUrl = `https://media.githubusercontent.com/media/${USER}/${REPO}/${BRANCH}/${encodedPath}/${p.name}`;
+                html += `<li>📄 <a href="${rawUrl}" target="_blank" style="color:#2a5298; text-decoration:none;">${p.name.replace(/\.pdf$/i, "")}</a></li>`;
+            }
+            html += `</ul></div>`;
         }
+        if (folders.length === 0 && pdfs.length === 0) html = "<div class='file-list'>📭 Aucun fichier</div>";
+        container.innerHTML = html;
+    } catch {
+        container.innerHTML = "<div class='file-list'>❌ Erreur chargement</div>";
     }
 }
-
 function initAccordion() {
     document.querySelectorAll(".section h2, .subsection h3").forEach(header => {
         header.onclick = function() {
