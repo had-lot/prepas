@@ -279,21 +279,16 @@
     </section>
 
 
-  <!-- News -->
-
+ <!-- News -->
 <section class="section" id="news">
-    <div style="background-color: #8B0000; color: white; padding: 15px; border-radius: 10px; cursor: pointer;" onclick="this.parentElement.classList.toggle('open')">
-        <h2 style="color: white; margin: 0;">📢 News</h2>
-    </div>
+    <h2 onclick="this.parentElement.classList.toggle('open')">📢 News</h2>
     <div class="content">
-
-        <p>📢 <a href="#concours" style="color: #1e3c72; text-decoration: none; font-weight: bold;" onclick="document.getElementById('concours').scrollIntoView({behavior:'smooth'}); return false;">Nouveaux concours</a></p>
-        <!-- Vous ajoutez ici les actualités des concours 2026 -->
-
-        <!-- VOUS METTEZ CE QUE VOUS VOULEZ ICI -->
-
+        <div class="folder-item">
+            <div class="folder-title" onclick="toggleFolder(this)">Nouveaux Concours</div>
+            <div id="news-concours" class="folder-content" data-path="News"></div>
+        </div>
     </div>
-    </section>
+</section>
 <!-- LIENS ET CONTACT -->
 <section class="section" id="liens">
     <h2>🔗 Liens & Contact</h2>
