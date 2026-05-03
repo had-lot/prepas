@@ -308,6 +308,19 @@ const USER = "had-lot";
 const REPO = "prepas";
 const BRANCH = "main";
 
+function toggleFolder(element) {
+    const content = element.nextElementSibling;
+    if (content) {
+        const isOpen = content.style.display === "block";
+        content.style.display = isOpen ? "none" : "block";
+        const path = content.getAttribute("data-path");
+        if (path && !content.hasAttribute("data-loaded")) {
+            chargerDossier(content.id, path);
+            content.setAttribute("data-loaded", "true");
+        }
+    }
+}
+
 async function chargerDossier(containerId, path) {
     const container = document.getElementById(containerId);
     if (!container || container.hasAttribute("data-loaded")) return;
@@ -346,6 +359,7 @@ async function chargerDossier(containerId, path) {
         container.innerHTML = "<div class='file-list'>❌ Erreur chargement</div>";
     }
 }
+
 function initAccordion() {
     document.querySelectorAll(".section h2, .subsection h3").forEach(header => {
         header.onclick = function() {
