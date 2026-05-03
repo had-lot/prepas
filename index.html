@@ -313,20 +313,16 @@ async function chargerDossier(containerId, path) {
     if (!container || container.hasAttribute("data-loaded")) return;
     container.innerHTML = "<div class='file-list'>📂 Chargement...</div>";
     container.setAttribute("data-loaded", "true");
-       try {
-        // Correction : On sépare les dossiers pour protéger les accents et espaces sans casser les "/"
+    try {
         const pathSecurise = path.split('/').map(segment => encodeURIComponent(segment)).join('/');
         const url = `https://api.github.com/repos/${USER}/${REPO}/contents/${pathSecurise}?ref=${BRANCH}`;
-        
         const res = await fetch(url);
         if (!res.ok) throw new Error();
         const items = await res.json();
-        
         if (!Array.isArray(items) || items.length === 0) {
             container.innerHTML = "<div class='file-list'>📭 Aucun fichier</div>";
             return;
         }
-
         const folders = items.filter(i => i.type === "dir");
         const pdfs = items.filter(i => i.type === "file" && i.name.toLowerCase().endsWith(".pdf"));
         let html = "";
@@ -335,17 +331,20 @@ async function chargerDossier(containerId, path) {
             html += `<div class="folder-item"><div class="folder-title" onclick="event.stopPropagation(); toggleFolder(this)">${f.name}</div><div id="${subId}" class="folder-content" data-path="${path}/${f.name}"></div></div>`;
             setTimeout(() => chargerDossier(subId, `${path}/${f.name}`), 50);
         }
-       if (pdfs.length) {
-    html += `<div class="file-list"><ul>`;
-    for (const p of pdfs) {
-        // Construction de l'URL brute pour les fichiers LFS
-        const rawUrl = `https://raw.githubusercontent.com/${USER}/${REPO}/${BRANCH}/${path}/${p.name}`;
-        html += `<li>📄 <a href="${rawUrl}" target="_blank" style="color:#2a5298; text-decoration:none;">${p.name.replace(/\.pdf$/i, "")}</a></li>`;
+        if (pdfs.length) {
+            html += `<div class="file-list"><ul>`;
+            for (const p of pdfs) {
+                const rawUrl = `https://raw.githubusercontent.com/${USER}/${REPO}/${BRANCH}/${path}/${p.name}`;
+                html += `<li>📄 <a href="${rawUrl}" target="_blank">${p.name.replace(/\.pdf$/i, "")}</a></li>`;
+            }
+            html += `</ul></div>`;
+        }
+        if (folders.length === 0 && pdfs.length === 0) html = "<div class='file-list'>📭 Aucun fichier</div>";
+        container.innerHTML = html;
+    } catch {
+        container.innerHTML = "<div class='file-list'>❌ Erreur chargement</div>";
     }
-    html += `</ul></div>`;
 }
-if (folders.length === 0 && pdfs.length === 0) html = "<div class='file-list'>📭 Aucun fichier</div>";
-container.innerHTML = html;
 
 function toggleFolder(element) {
     const content = element.nextElementSibling;
@@ -361,13 +360,10 @@ function toggleFolder(element) {
 }
 
 function initAccordion() {
-    // Gère le clic sur les sections principales (MP, MPSI, etc.)
     document.querySelectorAll(".section h2, .subsection h3").forEach(header => {
         header.onclick = function() {
             const parent = this.parentElement;
             parent.classList.toggle("open");
-            
-            // Cherche s'il y a un dossier à charger à l'intérieur
             const content = parent.querySelector("[data-path]");
             if (content && parent.classList.contains("open")) {
                 chargerDossier(content.id, content.getAttribute("data-path"));
@@ -375,18 +371,10 @@ function initAccordion() {
         };
     });
 }
-  function toggleSection(id) {
-    const section = document.getElementById(id);
-    if (section) {
-        section.classList.toggle("open");
-        section.scrollIntoView({ behavior: "smooth" });
-    }
-}
-
-  
 
 window.onload = initAccordion;
-
 </script>
+
+
 </body>
 </html>
