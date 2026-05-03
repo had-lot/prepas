@@ -218,7 +218,7 @@
             <div class="subcontent">
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Cours</div><div id="mpsi-alg-cours" class="folder-content" data-path="MPSI/Algebre/Cours"></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Devoirs</div><div id="mpsi-alg-devoirs" class="folder-content" data-path="MPSI/Algebre/Devoirs"></div></div>
-                <div id="mpsi-alg-td" class="folder-content" data-path="MPSI/Algebre/TD"></div>
+                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">TD</div><div id="mpsi-alg-td" class="folder-content" data-path="MPSI/Algebre/TD"></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Archives</div><div id="mpsi-alg-arch" class="folder-content" data-path="MPSI/Algebre/Archives"></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Problemes</div><div id="mpsi-alg-prob" class="folder-content" data-path="MPSI/Algebre/Problemes"></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Divers</div><div id="mpsi-alg-div" class="folder-content" data-path="MPSI/Algebre/Divers"></div></div>
@@ -227,46 +227,45 @@
     </div>
 </section>
 
-    <!-- PC/PT -->
-    <section class="section" id="pcpt">
-        <h2>📕 PC / PT (Deuxièmes années Physique chimie et préparatoire technologie )</h2>
-        <div class="content">
-            <div class="subsection"><h3>Cours</h3><div id="pcpt-cours" class="subcontent" data-path="PC_PT/Cours"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>Devoirs</h3><div id="pcpt-devoirs" class="subcontent" data-path="PC_PT/Devoirs"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>TD</h3><div id="pcpt-td" class="subcontent" data-path="PC_PT/TD"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>Problemes</h3><div id="pcpt-prob" class="subcontent" data-path="PC_PT/Problemes"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>Archives</h3><div id="pcpt-archives" class="subcontent" data-path="PC_PT/Archives"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>Divers</h3><div id="pcpt-divers" class="subcontent" data-path="PC_PT/Divers"><div class="file-list">Chargement...</div></div></div>
-        </div>
-    </section>
+<!-- PC/PT -->
+<section class="section" id="pcpt">
+    <h2 onclick="this.parentElement.classList.toggle('open')">📕 PC / PT (Deuxièmes années Physique chimie et préparatoire technologie)</h2>
+    <div class="content">
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Cours</h3><div id="pcpt-cours" class="subcontent" data-path="PC_PT/Cours"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Devoirs</h3><div id="pcpt-devoirs" class="subcontent" data-path="PC_PT/Devoirs"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">TD</h3><div id="pcpt-td" class="subcontent" data-path="PC_PT/TD"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Problemes</h3><div id="pcpt-prob" class="subcontent" data-path="PC_PT/Problemes"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Archives</h3><div id="pcpt-archives" class="subcontent" data-path="PC_PT/Archives"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Divers</h3><div id="pcpt-divers" class="subcontent" data-path="PC_PT/Divers"><div class="file-list">Chargement...</div></div></div>
+    </div>
+</section>
 
-    <!-- PCSI/PTSI -->
-    <section class="section" id="pcsi">
-        <h2>🧪 PCSI / PTSI (Premières années Physique chimie et préparatoire technologie)</h2>
-        <div class="content">
-            <div class="subsection"><h3>Cours</h3><div id="pcsi-cours" class="subcontent" data-path="PCSI_PTSI/Cours"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>Devoirs</h3><div id="pcsi-devoirs" class="subcontent" data-path="PCSI_PTSI/Devoirs"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>TD</h3><div id="pcsi-td" class="subcontent" data-path="PCSI_PTSI/TD"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>Problemes</h3><div id="pcsi-prob" class="subcontent" data-path="PCSI_PTSI/Problemes"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>Archives</h3><div id="pcsi-archives" class="subcontent" data-path="PCSI_PTSI/Archives"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>Divers</h3><div id="pcsi-divers" class="subcontent" data-path="PCSI_PTSI/Divers"><div class="file-list">Chargement...</div></div></div>
-        </div>
-    </section>
-
+<!-- PCSI/PTSI -->
+<section class="section" id="pcsi">
+    <h2 onclick="this.parentElement.classList.toggle('open')">🧪 PCSI / PTSI (Premières années Physique chimie et préparatoire technologie)</h2>
+    <div class="content">
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Cours</h3><div id="pcsi-cours" class="subcontent" data-path="PCSI_PTSI/Cours"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Devoirs</h3><div id="pcsi-devoirs" class="subcontent" data-path="PCSI_PTSI/Devoirs"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">TD</h3><div id="pcsi-td" class="subcontent" data-path="PCSI_PTSI/TD"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Problemes</h3><div id="pcsi-prob" class="subcontent" data-path="PCSI_PTSI/Problemes"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Archives</h3><div id="pcsi-archives" class="subcontent" data-path="PCSI_PTSI/Archives"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Divers</h3><div id="pcsi-divers" class="subcontent" data-path="PCSI_PTSI/Divers"><div class="file-list">Chargement...</div></div></div>
+    </div>
+</section>
 
 <!-- CONCOURS -->
-    <section class="section" id="concours">
-        <h2>📂 Concours Nationaux tunisiens</h2>
-        <div class="content">
-            <div class="subsection"><h3>Maths 1 MP</h3><div id="cnc-m1-mp" class="subcontent" data-path="Concours_nationaux_tunisiens/Maths_1_MP"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>Maths 2 MP</h3><div id="cnc-m2-mp" class="subcontent" data-path="Concours_nationaux_tunisiens/Maths_2_MP"><div class="file-list">Chargement...</div></div></div>
-            <div class="subsection"><h3>PC/PT</h3><div id="cnc-pc-pt" class="subcontent" data-path="Concours_nationaux_tunisiens/PC_PT"><div class="file-list">Chargement...</div></div></div>
-        </div>
-    </section>
+<section class="section" id="concours">
+    <h2 onclick="this.parentElement.classList.toggle('open')">📂 Concours Nationaux tunisiens</h2>
+    <div class="content">
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Maths 1 MP</h3><div id="cnc-m1-mp" class="subcontent" data-path="Concours_nationaux_tunisiens/Maths_1_MP"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">Maths 2 MP</h3><div id="cnc-m2-mp" class="subcontent" data-path="Concours_nationaux_tunisiens/Maths_2_MP"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection"><h3 onclick="this.parentElement.classList.toggle('open')">PC/PT</h3><div id="cnc-pc-pt" class="subcontent" data-path="Concours_nationaux_tunisiens/PC_PT"><div class="file-list">Chargement...</div></div></div>
+    </div>
+</section>
 
-  <!-- NEWS -->
+<!-- NEWS -->
 <section class="section" id="news">
-    <h2>📢 News</h2>
+    <h2 onclick="this.parentElement.classList.toggle('open')">📢 News</h2>
     <div class="content">
         <div id="news-files" class="subcontent" data-path="News">
             <div class="file-list">Chargement...</div>
@@ -274,21 +273,17 @@
     </div>
 </section>
 
-   
-
-    <!-- ACTUALITÉS -->
-    <section class="section" id="actualites">
-        <h2>📰 Actualités</h2>
-        <div class="content">
-            <div id="test-actu" class="subcontent" data-path="Actualites"><div class="file-list">Chargement...</div></div>
-        </div>
-    </section>
-
-
+<!-- ACTUALITÉS -->
+<section class="section" id="actualites">
+    <h2 onclick="this.parentElement.classList.toggle('open')">📰 Actualités</h2>
+    <div class="content">
+        <div id="test-actu" class="subcontent" data-path="Actualites"><div class="file-list">Chargement...</div></div>
+    </div>
+</section>
 
 <!-- LIENS ET CONTACT -->
 <section class="section" id="liens">
-    <h2>🔗 Liens & Contact</h2>
+    <h2 onclick="this.parentElement.classList.toggle('open')">🔗 Liens & Contact</h2>
     <div class="content">
         <p><strong>📧 Me contacter :</strong><br>
         ✉️ <a href="mailto:lotfi.haddad@gmail.com">lotfi.haddad@gmail.com</a><br>
