@@ -84,7 +84,8 @@
         <a onclick="document.getElementById('accueil').scrollIntoView({behavior:'smooth'}); return false;">Accueil</a>
         <a onclick="document.getElementById('maths1').scrollIntoView({behavior:'smooth'}); return false;">Maths 1 MP</a>
         <a onclick="document.getElementById('maths2').scrollIntoView({behavior:'smooth'}); return false;">Maths 2 MP</a>
-        <a onclick="document.getElementById('mpsi').scrollIntoView({behavior:'smooth'}); return false;">MPSI</a>
+        <a onclick="document.getElementById('analyse-mpsi').scrollIntoView({behavior:'smooth'}); return false;">📈 Analyse MPSI</a>
+        <a onclick="document.getElementById('algebre-mpsi').scrollIntoView({behavior:'smooth'}); return false;">🧮 Algèbre MPSI</a>
         <a onclick="document.getElementById('pcpt').scrollIntoView({behavior:'smooth'}); return false;">PC/PT</a>
         <a onclick="document.getElementById('pcsi').scrollIntoView({behavior:'smooth'}); return false;">PCSI/PTSI</a>
         <a onclick="document.getElementById('concours').scrollIntoView({behavior:'smooth'}); return false;">Concours Nationaux tunisiens</a>
@@ -193,16 +194,16 @@
             <div id="maths2-div" class="subcontent" data-path="Maths_2/Divers"><div class="file-list">Chargement...</div></div>
         </div>
     </div>
+
 </section>
 
-<!-- MPSI -->
-<section class="section" id="mpsi">
-    <h2 onclick="this.parentElement.classList.toggle('open')">📗 MPSI (Première année Mathématiques et Physique)</h2>
+<!-- Analyse MPSI -->
+<section class="section" id="analyse">
+    <h2 onclick="this.parentElement.classList.toggle('open')">>📈 Analyse MPSI (Première année Mathématiques et Physique)</h2>
     <div class="content">
         <!-- Analyse -->
-        <div class="subsection">
-            <h3 onclick="this.parentElement.classList.toggle('open')">📈 Analyse</h3>
-            <div class="subcontent">
+         <div class="subsection">
+           
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Cours</div><div id="mpsi-ana-cours" class="folder-content" data-path="MPSI/Analyse/Cours"><div class="file-list">Chargement...</div></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Devoirs</div><div id="mpsi-ana-devoirs" class="folder-content" data-path="MPSI/Analyse/Devoirs"><div class="file-list">Chargement...</div></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">TD</div><div id="mpsi-ana-td" class="folder-content" data-path="MPSI/Analyse/TD"><div class="file-list">Chargement...</div></div></div>
@@ -210,12 +211,15 @@
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Divers</div><div id="mpsi-ana-div" class="folder-content" data-path="MPSI/Analyse/Divers"><div class="file-list">Chargement...</div></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Problèmes</div><div id="mpsi-ana-prob" class="folder-content" data-path="MPSI/Analyse/Problèmes"><div class="file-list">Chargement...</div></div></div>
             </div>
-        </div>
-
-        <!-- Algèbre -->
-        <div class="subsection">
-            <h3 onclick="this.parentElement.classList.toggle('open')">🧮 Algèbre</h3>
-            <div class="subcontent">
+      </div>
+  </div>
+</section>
+        <!-- Algèbre MPSI -->
+        <div class="section" id="algebre">
+     <h2 onclick="this.parentElement.classList.toggle('open')">>🧮 Algèbre MPSI (Première année Mathématiques et Physique)</h2>
+    <div class="content"> 
+<!-- Algèbre -->
+         <div class="subsection">       
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Cours</div><div id="mpsi-alg-cours" class="folder-content" data-path="MPSI/Algèbre/Cours"><div class="file-list">Chargement...</div></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Devoirs</div><div id="mpsi-alg-devoirs" class="folder-content" data-path="MPSI/Algèbre/Devoirs"><div class="file-list">Chargement...</div></div></div>
                 <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">TD</div><div id="mpsi-alg-td" class="folder-content" data-path="MPSI/Algèbre/TD"><div class="file-list">Chargement...</div></div></div>
