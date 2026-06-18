@@ -199,7 +199,7 @@
 
 <!-- Analyse MPSI -->
 <section class="section" id="analyse">
-    <h2 onclick="this.parentElement.classList.toggle('open')">📈 Analyse MPSI (Première année Mathématiques et Physique)</h2>
+    <h2 onclick="this.parentElement.classList.toggle('open')">📈 Analyse MPSI (Première année)</h2>
     <div class="content">
         <div class="subsection">
             <div class="folder-item">
@@ -238,13 +238,14 @@
                     <div class="file-list">Chargement...</div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>  <!-- ✅ Correction : fermeture correcte -->
+        </div>  <!-- ✅ Fermeture de .subsection -->
+    </div>      <!-- ✅ Fermeture de .content -->
+</section>      <!-- ✅ Fermeture de section AVEC </section> -->
+
 
 <!-- Algèbre MPSI -->
-<section class="section" id="algebre">  <!-- ✅ Correction : <section> au lieu de <div> -->
-    <h2 onclick="this.parentElement.classList.toggle('open')">🧮 Algèbre MPSI (Première année Mathématiques et Physique)</h2>
+<section class="section" id="algebre">
+    <h2 onclick="this.parentElement.classList.toggle('open')">🧮 Algèbre MPSI (Première année)</h2>
     <div class="content">
         <div class="subsection">
             <div class="folder-item">
@@ -283,9 +284,10 @@
                     <div class="file-list">Chargement...</div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>  <!-- ✅ Correction : fermeture correcte -->
+        </div>  <!-- ✅ Fermeture de .subsection -->
+    </div>      <!-- ✅ Fermeture de .content -->
+</section>      <!-- ✅ Fermeture de section AVEC </section> -->
+
 <!-- PC/PT -->
 <section class="section" id="pcpt">
     <h2 onclick="this.parentElement.classList.toggle('open')">📕 PC / PT (Deuxièmes années Physique chimie et préparatoire technologie)</h2>
