@@ -199,37 +199,93 @@
 
 <!-- Analyse MPSI -->
 <section class="section" id="analyse">
-    <h2 onclick="this.parentElement.classList.toggle('open')">>📈 Analyse MPSI (Première année Mathématiques et Physique)</h2>
+    <h2 onclick="this.parentElement.classList.toggle('open')">📈 Analyse MPSI (Première année Mathématiques et Physique)</h2>
     <div class="content">
-        <!-- Analyse -->
-         <div class="subsection">
-           
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Cours</div><div id="mpsi-ana-cours" class="folder-content" data-path="MPSI/Analyse/Cours"><div class="file-list">Chargement...</div></div></div>
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Devoirs</div><div id="mpsi-ana-devoirs" class="folder-content" data-path="MPSI/Analyse/Devoirs"><div class="file-list">Chargement...</div></div></div>
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">TD</div><div id="mpsi-ana-td" class="folder-content" data-path="MPSI/Analyse/TD"><div class="file-list">Chargement...</div></div></div>
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Archives</div><div id="mpsi-ana-arch" class="folder-content" data-path="MPSI/Analyse/Archives"><div class="file-list">Chargement...</div></div></div>
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Divers</div><div id="mpsi-ana-div" class="folder-content" data-path="MPSI/Analyse/Divers"><div class="file-list">Chargement...</div></div></div>
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Problèmes</div><div id="mpsi-ana-prob" class="folder-content" data-path="MPSI/Analyse/Problèmes"><div class="file-list">Chargement...</div></div></div>
+        <div class="subsection">
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">Cours</div>
+                <div id="mpsi-ana-cours" class="folder-content" data-path="MPSI/Analyse/Cours">
+                    <div class="file-list">Chargement...</div>
+                </div>
             </div>
-      </div>
-  </div>
-</section>
-        <!-- Algèbre MPSI -->
-        <div class="section" id="algebre">
-     <h2 onclick="this.parentElement.classList.toggle('open')">>🧮 Algèbre MPSI (Première année Mathématiques et Physique)</h2>
-    <div class="content"> 
-<!-- Algèbre -->
-         <div class="subsection">       
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Cours</div><div id="mpsi-alg-cours" class="folder-content" data-path="MPSI/Algèbre/Cours"><div class="file-list">Chargement...</div></div></div>
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Devoirs</div><div id="mpsi-alg-devoirs" class="folder-content" data-path="MPSI/Algèbre/Devoirs"><div class="file-list">Chargement...</div></div></div>
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">TD</div><div id="mpsi-alg-td" class="folder-content" data-path="MPSI/Algèbre/TD"><div class="file-list">Chargement...</div></div></div>
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Archives</div><div id="mpsi-alg-arch" class="folder-content" data-path="MPSI/Algèbre/Archives"><div class="file-list">Chargement...</div></div></div>
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Problèmes</div><div id="mpsi-alg-prob" class="folder-content" data-path="MPSI/Algèbre/Problèmes"><div class="file-list">Chargement...</div></div></div>
-                <div class="folder-item"><div class="folder-title" onclick="toggleFolder(this)">Divers</div><div id="mpsi-alg-div" class="folder-content" data-path="MPSI/Algèbre/Divers"><div class="file-list">Chargement...</div></div></div>
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">Devoirs</div>
+                <div id="mpsi-ana-devoirs" class="folder-content" data-path="MPSI/Analyse/Devoirs">
+                    <div class="file-list">Chargement...</div>
+                </div>
+            </div>
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">TD</div>
+                <div id="mpsi-ana-td" class="folder-content" data-path="MPSI/Analyse/TD">
+                    <div class="file-list">Chargement...</div>
+                </div>
+            </div>
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">Archives</div>
+                <div id="mpsi-ana-arch" class="folder-content" data-path="MPSI/Analyse/Archives">
+                    <div class="file-list">Chargement...</div>
+                </div>
+            </div>
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">Divers</div>
+                <div id="mpsi-ana-div" class="folder-content" data-path="MPSI/Analyse/Divers">
+                    <div class="file-list">Chargement...</div>
+                </div>
+            </div>
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">Problèmes</div>
+                <div id="mpsi-ana-prob" class="folder-content" data-path="MPSI/Analyse/Problèmes">
+                    <div class="file-list">Chargement...</div>
+                </div>
             </div>
         </div>
     </div>
-</section>
+</section>  <!-- ✅ Correction : fermeture correcte -->
+
+<!-- Algèbre MPSI -->
+<section class="section" id="algebre">  <!-- ✅ Correction : <section> au lieu de <div> -->
+    <h2 onclick="this.parentElement.classList.toggle('open')">🧮 Algèbre MPSI (Première année Mathématiques et Physique)</h2>
+    <div class="content">
+        <div class="subsection">
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">Cours</div>
+                <div id="mpsi-alg-cours" class="folder-content" data-path="MPSI/Algèbre/Cours">
+                    <div class="file-list">Chargement...</div>
+                </div>
+            </div>
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">Devoirs</div>
+                <div id="mpsi-alg-devoirs" class="folder-content" data-path="MPSI/Algèbre/Devoirs">
+                    <div class="file-list">Chargement...</div>
+                </div>
+            </div>
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">TD</div>
+                <div id="mpsi-alg-td" class="folder-content" data-path="MPSI/Algèbre/TD">
+                    <div class="file-list">Chargement...</div>
+                </div>
+            </div>
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">Archives</div>
+                <div id="mpsi-alg-arch" class="folder-content" data-path="MPSI/Algèbre/Archives">
+                    <div class="file-list">Chargement...</div>
+                </div>
+            </div>
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">Problèmes</div>
+                <div id="mpsi-alg-prob" class="folder-content" data-path="MPSI/Algèbre/Problèmes">
+                    <div class="file-list">Chargement...</div>
+                </div>
+            </div>
+            <div class="folder-item">
+                <div class="folder-title" onclick="toggleFolder(this)">Divers</div>
+                <div id="mpsi-alg-div" class="folder-content" data-path="MPSI/Algèbre/Divers">
+                    <div class="file-list">Chargement...</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>  <!-- ✅ Correction : fermeture correcte -->
 <!-- PC/PT -->
 <section class="section" id="pcpt">
     <h2 onclick="this.parentElement.classList.toggle('open')">📕 PC / PT (Deuxièmes années Physique chimie et préparatoire technologie)</h2>
