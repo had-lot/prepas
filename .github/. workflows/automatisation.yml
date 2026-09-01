@@ -1,0 +1,28 @@
+name: Mise a jour automatique de l index
+
+on:
+  push:
+    branches:
+      - main  # ou le nom de votre branche principale (ex: master)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Recuperer le code du dépôt
+      uses: actions/checkout@v3
+
+    - name: Configurer Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Executer le script d indexation
+      run: python generer_index.py
+
+    - name: Sauvegarder l index sur GitHub Pages
+      run: |
+        git config --global user.name 'GitHub Actions'
+        git config --global user.email 'actions@github.com'
+        git add index_fichiers.json
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Mise à jour automatique de l index des PDF" && git push)
