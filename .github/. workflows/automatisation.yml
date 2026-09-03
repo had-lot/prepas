@@ -4,43 +4,50 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-    - name: Recuperer le code du dépôt
+    - name: Récupérer le code du dépôt
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+        persist-credentials: true
 
     - name: Configurer Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.x'
 
-    - name: Executer le script d indexation
+    - name: Exécuter le script d'indexation
       run: python generer_index.py
 
-    - name: Vérifier la présence du fichier généré
+    - name: Initialiser Git et pousser l'index
       run: |
-        if [ -f "index_fichiers.json" ]; then
-          echo "✅ Fichier index_fichiers.json généré avec succès"
-          cat index_fichiers.json | head -n 5  # Affiche un aperçu
-        else
-          echo "❌ ERREUR : index_fichiers.json n'a pas été créé !"
-          exit 1
-        fi
-
-    - name: Sauvegarder l index sur GitHub Pages
-      run: |
+        # Configuration Git
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
-        # L'option -f force l'ajout, même si le fichier est dans .gitignore
+        
+        # Réinitialiser Git si nécessaire
+        if [ ! -d ".git" ]; then
+          echo "⚠️ Répertoire .git manquant, réinitialisation..."
+          git init
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git fetch origin ${{ github.ref_name }}
+          git checkout ${{ github.ref_name }}
+        fi
+        
+        # Ajouter et pousser
         git add -f index_fichiers.json
-        # Vérifie si des changements ont été effectués
         if git diff --cached --quiet; then
-          echo "ℹ Aucun changement détecté dans l'index"
+          echo "ℹ Aucun changement à committer"
         else
-          git commit -m "Mise à jour automatique de l'index des PDF [skip ci]"
-          git push
-          echo "✅ Index mis à jour et poussé avec succès"
+          git commit -m "🔄 Mise à jour automatique de l'index des PDF [skip ci]"
+          git push origin ${{ github.ref_name }}
+          echo "✅ Index mis à jour avec succès"
         fi
