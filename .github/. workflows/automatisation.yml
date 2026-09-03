@@ -4,17 +4,30 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # Permet une exécution manuelle depuis l'interface GitHub
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Important pour pouvoir pousser
-
+      contents: write
+    
     steps:
-    - name: Récupérer le code
+    - name: Récupérer le code du dépôt
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # Récupère tout l'historique
+        persist-credentials: true  # Important pour les commits
+
+    - name: Vérifier l'environnement Git
+      run: |
+        echo "📂 Répertoire courant : $(pwd)"
+        echo "📁 Contenu :"
+        ls -la
+        echo "🔍 Statut Git :"
+        git status || echo "⚠️ Pas un dépôt Git"
+        echo "🌿 Branche :"
+        git branch || echo "⚠️ Pas de branche"
 
     - name: Configurer Python
       uses: actions/setup-python@v4
@@ -24,21 +37,44 @@ jobs:
     - name: Exécuter le script d'indexation
       run: |
         python generer_index.py
-        echo "STATUT_SCRIPT=$?" >> $GITHUB_ENV
+        echo "✅ Script exécuté avec succès"
 
-    - name: Vérifier la présence du fichier généré
+    - name: Vérifier la génération du fichier
       run: |
         if [ -f "index_fichiers.json" ]; then
-          echo "✅ index_fichiers.json a bien été créé."
-          cat index_fichiers.json # Affiche le contenu dans les logs
+          echo "✅ index_fichiers.json créé"
+          echo "📄 Aperçu :"
+          head -20 index_fichiers.json
         else
-          echo "❌ ERREUR : index_fichiers.json n'a pas été créé !"
+          echo "❌ ERREUR : index_fichiers.json manquant !"
           exit 1
         fi
 
-    - name: Pousser l'index sur le dépôt
+    - name: Sauvegarder l'index
       run: |
+        # Configuration Git
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
+        
+        # Vérifier qu'on est dans un dépôt Git
+        if ! git rev-parse --is-inside-work-tree &> /dev/null; then
+          echo "❌ Pas dans un dépôt Git. Réinitialisation..."
+          git init
+          git remote add origin https://github.com/had-lot/prepas.git
+          git fetch origin main
+          git checkout -b main origin/main
+        fi
+        
+        # Ajouter le fichier
         git add -f index_fichiers.json
-        git diff --cached --quiet || (git commit -m "Mise à jour automatique de l'index des PDF [skip ci]" && git push)
+        
+        # Vérifier les changements
+        if git diff --cached --quiet; then
+          echo "ℹ Aucun changement à committer"
+        else
+          echo "📝 Commit en cours..."
+          git commit -m "🔄 Mise à jour automatique de l'index des PDF [skip ci]"
+          echo "⬆️ Push en cours..."
+          git push origin main
+          echo "✅ Index mis à jour avec succès"
+        fi
