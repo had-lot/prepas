@@ -4,14 +4,14 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:  # Permet l'exécution manuelle
+  workflow_dispatch: # Permet une exécution manuelle depuis l'interface GitHub
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
-    
+      contents: write # Important pour pouvoir pousser
+
     steps:
     - name: Récupérer le code
       uses: actions/checkout@v3
@@ -24,18 +24,21 @@ jobs:
     - name: Exécuter le script d'indexation
       run: |
         python generer_index.py
-        echo "✅ Script exécuté"
+        echo "STATUT_SCRIPT=$?" >> $GITHUB_ENV
 
-    - name: Vérifier et pousser l'index
+    - name: Vérifier la présence du fichier généré
+      run: |
+        if [ -f "index_fichiers.json" ]; then
+          echo "✅ index_fichiers.json a bien été créé."
+          cat index_fichiers.json # Affiche le contenu dans les logs
+        else
+          echo "❌ ERREUR : index_fichiers.json n'a pas été créé !"
+          exit 1
+        fi
+
+    - name: Pousser l'index sur le dépôt
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
         git add -f index_fichiers.json
-        
-        if git diff --cached --quiet; then
-          echo "ℹ Aucun changement"
-        else
-          git commit -m "🔄 Mise à jour automatique de l'index [skip ci]"
-          git push
-          echo "✅ Index poussé"
-        fi
+        git diff --cached --quiet || (git commit -m "Mise à jour automatique de l'index des PDF [skip ci]" && git push)
