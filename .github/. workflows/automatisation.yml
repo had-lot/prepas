@@ -11,23 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    
+
     steps:
     - name: Récupérer le code du dépôt
       uses: actions/checkout@v3
       with:
-        fetch-depth: 0  # Récupère tout l'historique
-        persist-credentials: true  # Important pour les commits
-
-    - name: Vérifier l'environnement Git
-      run: |
-        echo "📂 Répertoire courant : $(pwd)"
-        echo "📁 Contenu :"
-        ls -la
-        echo "🔍 Statut Git :"
-        git status || echo "⚠️ Pas un dépôt Git"
-        echo "🌿 Branche :"
-        git branch || echo "⚠️ Pas de branche"
+        fetch-depth: 0
+        persist-credentials: true
 
     - name: Configurer Python
       uses: actions/setup-python@v4
@@ -35,46 +25,29 @@ jobs:
         python-version: '3.x'
 
     - name: Exécuter le script d'indexation
-      run: |
-        python generer_index.py
-        echo "✅ Script exécuté avec succès"
+      run: python generer_index.py
 
-    - name: Vérifier la génération du fichier
-      run: |
-        if [ -f "index_fichiers.json" ]; then
-          echo "✅ index_fichiers.json créé"
-          echo "📄 Aperçu :"
-          head -20 index_fichiers.json
-        else
-          echo "❌ ERREUR : index_fichiers.json manquant !"
-          exit 1
-        fi
-
-    - name: Sauvegarder l'index
+    - name: Initialiser Git et pousser l'index
       run: |
         # Configuration Git
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
         
-        # Vérifier qu'on est dans un dépôt Git
-        if ! git rev-parse --is-inside-work-tree &> /dev/null; then
-          echo "❌ Pas dans un dépôt Git. Réinitialisation..."
+        # Réinitialiser Git si nécessaire
+        if [ ! -d ".git" ]; then
+          echo "⚠️ Répertoire .git manquant, réinitialisation..."
           git init
-          git remote add origin https://github.com/had-lot/prepas.git
-          git fetch origin main
-          git checkout -b main origin/main
+          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git fetch origin ${{ github.ref_name }}
+          git checkout ${{ github.ref_name }}
         fi
         
-        # Ajouter le fichier
+        # Ajouter et pousser
         git add -f index_fichiers.json
-        
-        # Vérifier les changements
         if git diff --cached --quiet; then
           echo "ℹ Aucun changement à committer"
         else
-          echo "📝 Commit en cours..."
           git commit -m "🔄 Mise à jour automatique de l'index des PDF [skip ci]"
-          echo "⬆️ Push en cours..."
-          git push origin main
+          git push origin ${{ github.ref_name }}
           echo "✅ Index mis à jour avec succès"
         fi
