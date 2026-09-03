@@ -3,7 +3,7 @@ name: Mise a jour automatique de l index
 on:
   push:
     branches:
-      - main  # ou le nom de votre branche principale (ex: master)
+      - main
 
 jobs:
   build:
@@ -20,9 +20,27 @@ jobs:
     - name: Executer le script d indexation
       run: python generer_index.py
 
+    - name: Vérifier la présence du fichier généré
+      run: |
+        if [ -f "index_fichiers.json" ]; then
+          echo "✅ Fichier index_fichiers.json généré avec succès"
+          cat index_fichiers.json | head -n 5  # Affiche un aperçu
+        else
+          echo "❌ ERREUR : index_fichiers.json n'a pas été créé !"
+          exit 1
+        fi
+
     - name: Sauvegarder l index sur GitHub Pages
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
-        git add index_fichiers.json
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Mise à jour automatique de l index des PDF" && git push)
+        # L'option -f force l'ajout, même si le fichier est dans .gitignore
+        git add -f index_fichiers.json
+        # Vérifie si des changements ont été effectués
+        if git diff --cached --quiet; then
+          echo "ℹ Aucun changement détecté dans l'index"
+        else
+          git commit -m "Mise à jour automatique de l'index des PDF [skip ci]"
+          git push
+          echo "✅ Index mis à jour et poussé avec succès"
+        fi
