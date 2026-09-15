@@ -21,11 +21,11 @@ def generer_liste_pdf():
             index_fichiers[nom_dossier] = sorted(pdf_trouves)
             print(f"  📁 {nom_dossier}: {len(pdf_trouves)} PDF")
     
-    # 1. Écriture du JSON (comme avant)
+    # Écriture du JSON (comme avant)
     with open("index_fichiers.json", "w", encoding="utf-8") as f:
         json.dump(index_fichiers, f, ensure_ascii=False, indent=4)
     
-    # 2. NOUVEAU : écriture du fichier data.js lisible par le navigateur
+    # NOUVEAU : écriture du fichier data.js lisible par le navigateur
     with open("data.js", "w", encoding="utf-8") as f:
         f.write("window.INDEX_PDF = ")
         json.dump(index_fichiers, f, ensure_ascii=False, indent=2)
