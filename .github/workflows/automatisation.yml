@@ -27,27 +27,18 @@ jobs:
     - name: Exécuter le script d'indexation
       run: python generer_index.py
 
-    - name: Initialiser Git et pousser l'index
+       - name: Initialiser Git et pousser l'index
       run: |
-        # Configuration Git
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
         
-        # Réinitialiser Git si nécessaire
-        if [ ! -d ".git" ]; then
-          echo "⚠️ Répertoire .git manquant, réinitialisation..."
-          git init
-          git remote add origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git fetch origin ${{ github.ref_name }}
-          git checkout ${{ github.ref_name }}
-        fi
-        
-        # Ajouter et pousser
-        git add -f index_fichiers.json
+        git add -f index_fichiers.json data.js
         if git diff --cached --quiet; then
           echo "ℹ Aucun changement à committer"
         else
-          git commit -m "🔄 Mise à jour automatique de l'index des PDF [skip ci]"
+          # إضافة [skip ci] تمنع GitHub من إعادت تشغيل الـ Workflow ودخول الموقع في حظر الـ 3 ساعات
+          git commit -m "🔄 Update index [skip ci]"
           git push origin ${{ github.ref_name }}
-          echo "✅ Index mis à jour avec succès"
+          echo "✅ Index mis à jour sans boucle infinie"
         fi
+
