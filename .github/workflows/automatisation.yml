@@ -27,7 +27,7 @@ jobs:
     - name: Exécuter le script d'indexation
       run: python generer_index.py
 
-       - name: Initialiser Git et pousser l'index
+    - name: Initialiser Git et pousser l'index
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
@@ -36,9 +36,8 @@ jobs:
         if git diff --cached --quiet; then
           echo "ℹ Aucun changement à committer"
         else
-          # إضافة [skip ci] تمنع GitHub من إعادت تشغيل الـ Workflow ودخول الموقع في حظر الـ 3 ساعات
+          # [skip ci] empêche GitHub de relancer le workflow en boucle
           git commit -m "🔄 Update index [skip ci]"
           git push origin ${{ github.ref_name }}
           echo "✅ Index mis à jour sans boucle infinie"
         fi
-
