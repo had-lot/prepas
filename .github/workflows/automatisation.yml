@@ -27,17 +27,35 @@ jobs:
     - name: Exécuter le script d'indexation
       run: python generer_index.py
 
+    - name: Injecter chargeur.js dans index.html
+      run: |
+        python - <<'EOF'
+        with open("index.html", "r", encoding="utf-8") as f:
+            contenu = f.read()
+        
+        # On ajoute le script juste avant </body>
+        if "chargeur.js" not in contenu:
+            contenu = contenu.replace(
+                "</body>",
+                '  <script src="chargeur.js"></script>\n</body>'
+            )
+            with open("index.html", "w", encoding="utf-8") as f:
+                f.write(contenu)
+            print("✅ chargeur.js injecté dans index.html")
+        else:
+            print("ℹ chargeur.js déjà présent, rien à faire")
+        EOF
+
     - name: Initialiser Git et pousser l'index
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
         
-        git add -f index_fichiers.json data.js
+        git add -f index_fichiers.json data.js index.html
         if git diff --cached --quiet; then
           echo "ℹ Aucun changement à committer"
         else
-          # [skip ci] empêche GitHub de relancer le workflow en boucle
-          git commit -m "🔄 Update index [skip ci]"
+          git commit -m "🔄 Update index + chargeur [skip ci]"
           git push origin ${{ github.ref_name }}
           echo "✅ Index mis à jour sans boucle infinie"
         fi
