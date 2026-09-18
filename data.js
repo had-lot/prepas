@@ -985,6 +985,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/ESPCI - PC 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/CNC 2001 – TSI": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2260,7 +2264,15 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/HEC II 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/CONCOURS Mines 2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/ESCPEAP - Mathématiques I 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -2437,6 +2449,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/X 1998": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/ESSEC 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -2710,6 +2726,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "PC_PT/Archives/Devoirs/Deug 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "PC_PT/Archives/Devoirs/EDHEC 1995": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2751,6 +2771,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "PC_PT/Archives/Devoirs/Banque PT 2001": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "PC_PT/Archives/Devoirs/HEC III 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -2810,6 +2834,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "PC_PT/Archives/Devoirs/ESCP 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "PC_PT/Archives/Devoirs/EM LYON 2001": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2847,6 +2875,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "PC_PT/Archives/Devoirs/EDHEC_1997": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "PC_PT/Archives/Devoirs/ESC 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -2890,6 +2922,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "PC_PT/Archives/Devoirs/EML 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "PC_PT/Archives/Devoirs/Concours BCPST 2003": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2899,6 +2935,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "PC_PT/Archives/Devoirs/X 1997 — PC": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "PC_PT/Archives/Devoirs/EDHEC 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -3999,6 +4039,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/Mines 2 2002 MP": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/ESPCI - PC 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5277,7 +5321,15 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_1/Archives/Devoirs/HEC II 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_1/Archives/Devoirs/CONCOURS Mines 2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/ESCPEAP - Mathématiques I 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5454,6 +5506,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/X 1998": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/ESSEC 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5727,6 +5783,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./PC_PT/Archives/Devoirs/Deug 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./PC_PT/Archives/Devoirs/EDHEC 1995": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5768,6 +5828,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./PC_PT/Archives/Devoirs/Banque PT 2001": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./PC_PT/Archives/Devoirs/HEC III 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5827,6 +5891,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./PC_PT/Archives/Devoirs/ESCP 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./PC_PT/Archives/Devoirs/EM LYON 2001": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5864,6 +5932,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./PC_PT/Archives/Devoirs/EDHEC_1997": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./PC_PT/Archives/Devoirs/ESC 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5907,6 +5979,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./PC_PT/Archives/Devoirs/EML 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./PC_PT/Archives/Devoirs/Concours BCPST 2003": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5916,6 +5992,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./PC_PT/Archives/Devoirs/X 1997 — PC": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./PC_PT/Archives/Devoirs/EDHEC 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
