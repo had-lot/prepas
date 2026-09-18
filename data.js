@@ -389,6 +389,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "MPSI/Analyse/Archives/dm communs analyse_ algèbre/Concours 2005 - Mines": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "MPSI/Analyse/Archives/dm communs analyse_ algèbre/Albi 1996": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -406,6 +410,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "MPSI/Analyse/Archives/dm communs analyse_ algèbre/PETITES MINES 2004": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "MPSI/Analyse/Archives/dm communs analyse_ algèbre/CONCOURS 2005 DES ÉCOLES DES MINES": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -726,6 +734,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_2/Archives/Devoirs/Cachan 1986 P": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_2/Archives/Devoirs/ENS étrangers 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -2702,6 +2714,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "PC_PT/Archives/Devoirs/INT Management 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "PC_PT/Archives/Devoirs/dm 5": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2795,6 +2811,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "PC_PT/Archives/Devoirs/EM LYON 2001": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "PC_PT/Archives/Devoirs/ISUP 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -3386,6 +3406,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./MPSI/Analyse/Archives/dm communs analyse_ algèbre/Concours 2005 - Mines": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./MPSI/Analyse/Archives/dm communs analyse_ algèbre/Albi 1996": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -3403,6 +3427,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./MPSI/Analyse/Archives/dm communs analyse_ algèbre/PETITES MINES 2004": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./MPSI/Analyse/Archives/dm communs analyse_ algèbre/CONCOURS 2005 DES ÉCOLES DES MINES": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -3723,6 +3751,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/Cachan 1986 P": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/ENS étrangers 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5699,6 +5731,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./PC_PT/Archives/Devoirs/INT Management 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./PC_PT/Archives/Devoirs/dm 5": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5792,6 +5828,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./PC_PT/Archives/Devoirs/EM LYON 2001": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./PC_PT/Archives/Devoirs/ISUP 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],

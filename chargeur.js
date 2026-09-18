@@ -3,31 +3,37 @@
 // pour lire les données locales (data.js) au lieu de l'API GitHub.
 
 (function () {
-  const INDEX = window.INDEX_PDF || window.DATA_PDF || window.data || window.cours || {};
+
+  function getIndex() {
+    // On lit INDEX_PDF au moment de l'appel, pas au chargement.
+    return window.INDEX_PDF || window.DATA_PDF || window.data || window.cours || {};
+  }
 
   function normaliserChemin(chemin) {
-    // Enlève le "./" au début s'il existe, et les "/" en trop
-    return chemin.replace(/^\.\//, "").replace(/\/+$/, "");
+    return (chemin || "").replace(/^\.\//, "").replace(/\/+$/, "").trim();
   }
 
   function listerContenu(chemin) {
-    // Cherche dans INDEX tous les dossiers qui commencent par ce chemin
+    const INDEX = getIndex();
     const cheminNorm = normaliserChemin(chemin);
-    const prefixe = cheminNorm + "/";
 
     const sousDossiers = [];
     const fichiers = [];
 
-    // 1) Si le dossier lui-même est présent dans INDEX, on prend ses fichiers
+    // 1) Correspondance exacte
     for (const cle in INDEX) {
       const cleNorm = normaliserChemin(cle);
       if (cleNorm === cheminNorm) {
         for (const f of INDEX[cle]) {
           if (f.toLowerCase().endsWith(".pdf")) fichiers.push(f);
         }
-        continue;
       }
-      // 2) Sinon, on regarde les sous-dossiers
+    }
+
+    // 2) Sous-dossiers
+    const prefixe = cheminNorm + "/";
+    for (const cle in INDEX) {
+      const cleNorm = normaliserChemin(cle);
       if (cleNorm.startsWith(prefixe)) {
         const reste = cleNorm.slice(prefixe.length);
         const premierSegment = reste.split("/")[0];
@@ -72,4 +78,12 @@
 
     container.innerHTML = html;
   };
+
+  // Si data.js arrive APRÈS chargeur.js, on recharge la page une fois.
+  // Ceinture et bretelles.
+  window.addEventListener("load", function () {
+    if (!window.INDEX_PDF && !window.DATA_PDF && !window.data && !window.cours) {
+      console.warn("⚠️ data.js pas encore chargé — attente…");
+    }
+  });
 })();
