@@ -685,6 +685,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/Maroc MP 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/Concours Spécial 1987": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -886,6 +890,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_2/Archives/Devoirs/Ensam 1994": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_2/Archives/Devoirs/Maroc TSI 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -1949,6 +1957,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/ds de vacances 2021": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/Maroc MP 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -3742,6 +3754,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_2/Archives/Devoirs/Maroc MP 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_2/Archives/Devoirs/Concours Spécial 1987": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -3943,6 +3959,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/Ensam 1994": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/Maroc TSI 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5006,6 +5026,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/ds de vacances 2021": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/Maroc MP 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
