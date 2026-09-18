@@ -6,47 +6,57 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
 
     steps:
     - name: Récupérer le code du dépôt
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
         persist-credentials: true
 
     - name: Configurer Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.x'
 
     - name: Exécuter le script d'indexation
       run: python generer_index.py
 
-    - name: Injecter chargeur.js dans index.html
+    - name: Injecter data.js et chargeur.js dans index.html
       run: |
         python - <<'EOF'
         with open("index.html", "r", encoding="utf-8") as f:
             contenu = f.read()
         
-        # On ajoute le script juste avant </body>
+        # Ajouter data.js avant chargeur.js (si pas déjà présents)
+        if "data.js" not in contenu:
+            contenu = contenu.replace(
+                "</body>",
+                '  <script src="data.js"></script>\n</body>'
+            )
         if "chargeur.js" not in contenu:
             contenu = contenu.replace(
                 "</body>",
                 '  <script src="chargeur.js"></script>\n</body>'
             )
-            with open("index.html", "w", encoding="utf-8") as f:
-                f.write(contenu)
-            print("✅ chargeur.js injecté dans index.html")
-        else:
-            print("ℹ chargeur.js déjà présent, rien à faire")
+        with open("index.html", "w", encoding="utf-8") as f:
+            f.write(contenu)
+        print("✅ data.js et chargeur.js injectés dans index.html")
         EOF
 
-    - name: Initialiser Git et pousser l'index
+    - name: Committer les fichiers mis à jour
       run: |
         git config --global user.name 'GitHub Actions'
         git config --global user.email 'actions@github.com'
@@ -55,7 +65,18 @@ jobs:
         if git diff --cached --quiet; then
           echo "ℹ Aucun changement à committer"
         else
-          git commit -m "🔄 Update index + chargeur [skip ci]"
+          git commit -m "🔄 Update index + data + chargeur [skip ci]"
           git push origin ${{ github.ref_name }}
-          echo "✅ Index mis à jour sans boucle infinie"
+          echo "✅ Fichiers mis à jour"
         fi
+
+    - name: Configurer GitHub Pages
+      uses: actions/configure-pages@v5
+
+    - name: Emballer le site
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: '.'
+
+    - name: Déployer sur GitHub Pages
+      uses: actions/deploy-pages@v4
