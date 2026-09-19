@@ -673,6 +673,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/CCP PC 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/Optionnelle de mathématiques 2004": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -698,6 +702,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_2/Archives/Devoirs/Concours CCP 2004": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_2/Archives/Devoirs/Concours centrale PSI 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -881,6 +889,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/Centrale Maths 2 MP 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/ENSAE_1994_maths_2": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -906,6 +918,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_2/Archives/Devoirs/ENS Lyon 1989": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_2/Archives/Devoirs/CCP MP 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -937,6 +953,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/CCP PSI 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/Centrale_1983": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -954,6 +974,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_2/Archives/Devoirs/X_2000_PC__1": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_2/Archives/Devoirs/Mines 2005 Math MP": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -1166,6 +1190,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_2/Archives/Devoirs/ENSIETA 1996": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_2/Archives/Devoirs/Mines 2005 PSI": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -1920,6 +1948,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/CCP PC 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/CCP PSI 2002": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -1929,6 +1961,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/Maroc tsi 2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/Mines-Ponts PC 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -1997,6 +2033,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/ESSEC 1998": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/CCP 2005 MP": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -2168,6 +2208,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/Centrale 2005 PSI": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/CNC 1999 — Maroc TSI": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2225,6 +2269,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/Concours Maroc 1998": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/CCP PSI 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -2472,6 +2520,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/Mines 2005 PSI": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/ENSAE 2001": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2497,6 +2549,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/Centrale-Supélec 1998": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/Centrale-Supélec 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -3742,6 +3798,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_2/Archives/Devoirs/CCP PC 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_2/Archives/Devoirs/Optionnelle de mathématiques 2004": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -3767,6 +3827,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/Concours CCP 2004": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/Concours centrale PSI 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -3950,6 +4014,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_2/Archives/Devoirs/Centrale Maths 2 MP 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_2/Archives/Devoirs/ENSAE_1994_maths_2": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -3975,6 +4043,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/ENS Lyon 1989": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/CCP MP 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -4006,6 +4078,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_2/Archives/Devoirs/CCP PSI 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_2/Archives/Devoirs/Centrale_1983": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -4023,6 +4099,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/X_2000_PC__1": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/Mines 2005 Math MP": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -4235,6 +4315,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/ENSIETA 1996": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/Mines 2005 PSI": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -4989,6 +5073,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_1/Archives/Devoirs/CCP PC 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_1/Archives/Devoirs/CCP PSI 2002": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -4998,6 +5086,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/Maroc tsi 2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/Mines-Ponts PC 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5066,6 +5158,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/ESSEC 1998": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/CCP 2005 MP": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5237,6 +5333,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_1/Archives/Devoirs/Centrale 2005 PSI": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_1/Archives/Devoirs/CNC 1999 — Maroc TSI": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5294,6 +5394,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/Concours Maroc 1998": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/CCP PSI 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5541,6 +5645,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_1/Archives/Devoirs/Mines 2005 PSI": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_1/Archives/Devoirs/ENSAE 2001": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5566,6 +5674,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/Centrale-Supélec 1998": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/Centrale-Supélec 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
