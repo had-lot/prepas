@@ -881,6 +881,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/X-ENS PC 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/ENS Lyon 1987": [
     "Corrigé.pdf",
     "ens_87_3.pdf"
@@ -1162,6 +1166,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_2/Archives/Devoirs/Centrale-Supélec 1998  PC": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_2/Archives/Devoirs/E 3A 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -2260,6 +2268,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/Concours ENSAM 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/Examen 2 2015": [
     "Corrigé.pdf",
     "Examen_2_2015.pdf"
@@ -2385,6 +2397,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/Concours Maroc TSI 2003": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/e3a PSI 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -3027,6 +3043,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "PC_PT/Archives/Devoirs/ds 5": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "PC_PT/Archives/Devoirs/E3A M1 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -4006,6 +4026,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_2/Archives/Devoirs/X-ENS PC 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_2/Archives/Devoirs/ENS Lyon 1987": [
     "Corrigé.pdf",
     "ens_87_3.pdf"
@@ -4287,6 +4311,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/Centrale-Supélec 1998  PC": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/E 3A 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5385,6 +5413,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_1/Archives/Devoirs/Concours ENSAM 2005": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_1/Archives/Devoirs/Examen 2 2015": [
     "Corrigé.pdf",
     "Examen_2_2015.pdf"
@@ -5510,6 +5542,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/Concours Maroc TSI 2003": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/e3a PSI 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -6152,6 +6188,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./PC_PT/Archives/Devoirs/ds 5": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./PC_PT/Archives/Devoirs/E3A M1 2005": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
