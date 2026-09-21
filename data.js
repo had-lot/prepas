@@ -2630,7 +2630,8 @@ window.INDEX_PDF = {
     "Complément___Formule_de_Stirling_avec_termes_correctifs.pdf",
     "Connexité par arcs.pdf",
     "Convergence_et_calcul_d_intégrales.pdf",
-    "Corrigé_de_Calcul_d_intégrales .pdf"
+    "Corrigé_de_Calcul_d_intégrales .pdf",
+    "Exercice sur les normes équivalentes.pdf"
   ],
   "Maths_1/TD/TD 6 I.G": [
     "Corrigé.pdf",
@@ -5775,7 +5776,8 @@ window.INDEX_PDF_ALT = {
     "Complément___Formule_de_Stirling_avec_termes_correctifs.pdf",
     "Connexité par arcs.pdf",
     "Convergence_et_calcul_d_intégrales.pdf",
-    "Corrigé_de_Calcul_d_intégrales .pdf"
+    "Corrigé_de_Calcul_d_intégrales .pdf",
+    "Exercice sur les normes équivalentes.pdf"
   ],
   "./Maths_1/TD/TD 6 I.G": [
     "Corrigé.pdf",
