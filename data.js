@@ -2278,7 +2278,7 @@ window.INDEX_PDF = {
   ],
   "Maths_1/Archives/Devoirs/Examen 2 2015": [
     "Corrigé.pdf",
-    "Examen_2_2015.pdf"
+    "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/ens_1977": [
     "Corrigé.pdf",
@@ -5428,7 +5428,7 @@ window.INDEX_PDF_ALT = {
   ],
   "./Maths_1/Archives/Devoirs/Examen 2 2015": [
     "Corrigé.pdf",
-    "Examen_2_2015.pdf"
+    "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/ens_1977": [
     "Corrigé.pdf",
