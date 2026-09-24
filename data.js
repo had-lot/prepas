@@ -2216,6 +2216,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/X_ENS_psi_2014": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/Centrale 2005 PSI": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5359,6 +5363,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/CONCOURS X 1977": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/X_ENS_psi_2014": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
