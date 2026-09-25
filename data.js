@@ -1926,6 +1926,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
+  "Maths_1/Problemes/Problème 18": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
   "Maths_1/Problemes/Problème 2": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -2411,6 +2415,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/CCP 2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/DS_Fev2014": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5077,6 +5085,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
+  "./Maths_1/Problemes/Problème 18": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
   "./Maths_1/Problemes/Problème 2": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -5562,6 +5574,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/CCP 2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/DS_Fev2014": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
