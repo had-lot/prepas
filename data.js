@@ -32,6 +32,10 @@ window.INDEX_PDF = {
     "قصتي_مع_الرياضيات.pdf",
     "هل_الذكاء_الإصطناعي_نافع_أم_ضار__.pdf"
   ],
+  "Maths_2/Devoirs/2026_2027": [
+    "dm_1.pdf",
+    "dm_2 .pdf"
+  ],
   "Maths_2/Devoirs/Concours blanc/cb 1": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -3213,6 +3217,10 @@ window.INDEX_PDF_ALT = {
     "شهر_المراجعة_النهائية_للمناظرات_الوطنية.pdf",
     "قصتي_مع_الرياضيات.pdf",
     "هل_الذكاء_الإصطناعي_نافع_أم_ضار__.pdf"
+  ],
+  "./Maths_2/Devoirs/2026_2027": [
+    "dm_1.pdf",
+    "dm_2 .pdf"
   ],
   "./Maths_2/Devoirs/Concours blanc/cb 1": [
     "Corrigé.pdf",
