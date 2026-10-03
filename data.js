@@ -1739,8 +1739,10 @@ window.INDEX_PDF = {
     "Chapitre_9_Algèbre.pdf"
   ],
   "Maths_1/Devoirs/2026_2027": [
+    "Corrigé ds 1.pdf",
     "dm_1.pdf",
-    "dm__2.pdf"
+    "dm__2.pdf",
+    "ds 1.pdf"
   ],
   "Maths_1/Devoirs/dm 11": [
     "Énoncé_et_corrigé_du_DL3.pdf"
@@ -4919,8 +4921,10 @@ window.INDEX_PDF_ALT = {
     "Chapitre_9_Algèbre.pdf"
   ],
   "./Maths_1/Devoirs/2026_2027": [
+    "Corrigé ds 1.pdf",
     "dm_1.pdf",
-    "dm__2.pdf"
+    "dm__2.pdf",
+    "ds 1.pdf"
   ],
   "./Maths_1/Devoirs/dm 11": [
     "Énoncé_et_corrigé_du_DL3.pdf"
