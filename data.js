@@ -34,7 +34,8 @@ window.INDEX_PDF = {
   ],
   "Maths_2/Devoirs/2026_2027": [
     "dm_1.pdf",
-    "dm_2 .pdf"
+    "dm_2 .pdf",
+    "dm_3.pdf"
   ],
   "Maths_2/Devoirs/Concours blanc/cb 1": [
     "Corrigé.pdf",
@@ -3224,7 +3225,8 @@ window.INDEX_PDF_ALT = {
   ],
   "./Maths_2/Devoirs/2026_2027": [
     "dm_1.pdf",
-    "dm_2 .pdf"
+    "dm_2 .pdf",
+    "dm_3.pdf"
   ],
   "./Maths_2/Devoirs/Concours blanc/cb 1": [
     "Corrigé.pdf",
