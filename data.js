@@ -814,6 +814,14 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
+  "PC_PT/Problemes/Problème 4": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
+  "PC_PT/Problemes/Problème 3": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
   "PC_PT/Archives/Devoirs/ds 2": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -1745,6 +1753,8 @@ window.INDEX_PDF = {
   ],
   "Maths_1/Devoirs/2026_2027": [
     "Corrigé ds 1.pdf",
+    "DS_EVN.pdf",
+    "corrigé_ds_EVN.pdf",
     "dm_1.pdf",
     "dm__2.pdf",
     "ds 1.pdf"
@@ -2018,6 +2028,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/ENTPE 1995": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/ds 2 _ 2025": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -4005,6 +4019,14 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
+  "./PC_PT/Problemes/Problème 4": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
+  "./PC_PT/Problemes/Problème 3": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
   "./PC_PT/Archives/Devoirs/ds 2": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -4936,6 +4958,8 @@ window.INDEX_PDF_ALT = {
   ],
   "./Maths_1/Devoirs/2026_2027": [
     "Corrigé ds 1.pdf",
+    "DS_EVN.pdf",
+    "corrigé_ds_EVN.pdf",
     "dm_1.pdf",
     "dm__2.pdf",
     "ds 1.pdf"
@@ -5209,6 +5233,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/ENTPE 1995": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/ds 2 _ 2025": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
