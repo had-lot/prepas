@@ -2604,6 +2604,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/ds_3_2025_2026": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/Tests": [
     "Corrigés.pdf",
     "Énoncés.pdf"
@@ -5787,6 +5791,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/CNC 1999 MP": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/ds_3_2025_2026": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
