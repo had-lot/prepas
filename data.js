@@ -1390,6 +1390,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "MPSI/Analyse/Archives/dm communs analyse_ algèbre/ISFA_Maths_1_MP_2009": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "MPSI/Analyse/Archives/dm communs analyse_ algèbre/CONCOURS 2005 DES ÉCOLES DES MINES": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2626,6 +2630,10 @@ window.INDEX_PDF = {
   "Maths_1/Archives/Devoirs/Tests": [
     "Corrigés.pdf",
     "Énoncés.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/X_ENS_MP_1980": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/Centrale 94 Maths 2": [
     "Corrigé.pdf",
@@ -4595,6 +4603,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./MPSI/Analyse/Archives/dm communs analyse_ algèbre/ISFA_Maths_1_MP_2009": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./MPSI/Analyse/Archives/dm communs analyse_ algèbre/CONCOURS 2005 DES ÉCOLES DES MINES": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5831,6 +5843,10 @@ window.INDEX_PDF_ALT = {
   "./Maths_1/Archives/Devoirs/Tests": [
     "Corrigés.pdf",
     "Énoncés.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/X_ENS_MP_1980": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/Centrale 94 Maths 2": [
     "Corrigé.pdf",
