@@ -33,6 +33,9 @@ window.INDEX_PDF = {
     "هل_الذكاء_الإصطناعي_نافع_أم_ضار__.pdf"
   ],
   "Maths_2/Devoirs/2026_2027": [
+    "corrigé_dm 3 maths 2.pdf",
+    "corrigé_dm_1_maths_2.pdf",
+    "corrigé_dm_2_maths_2.pdf",
     "dm_1.pdf",
     "dm_2 .pdf",
     "dm_3.pdf"
@@ -598,6 +601,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_2/Archives/Devoirs/Concours Maroc MP 2003": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_2/Archives/Devoirs/centrale_maths_1_mp_2020": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -1757,7 +1764,11 @@ window.INDEX_PDF = {
   ],
   "Maths_1/Devoirs/2026_2027": [
     "Corrigé ds 1.pdf",
+    "Corrigé_dm Topologie_et_rang_majoré.pdf",
+    "DM___Topologie_et_rang_majoré.pdf",
     "DS_EVN.pdf",
+    "corrigé_dm .pdf",
+    "corrigé_dm_1.pdf",
     "corrigé_ds_EVN.pdf",
     "dm_1.pdf",
     "dm__2.pdf",
@@ -2311,6 +2322,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/dm_intégration 2013": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/Concours Maroc 1998": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2408,6 +2423,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/Maroc tsi 2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/dm_evn 2009": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -2716,7 +2735,9 @@ window.INDEX_PDF = {
     "Convergence_et_calcul_d_intégrales.pdf",
     "Corrigé_de_Calcul_d_intégrales .pdf",
     "Exercice sur les normes équivalentes.pdf",
-    "Exercice_sur_la_topologie_produit .pdf"
+    "Exercice_sur_la_connexité_par_arcs.pdf",
+    "Exercice_sur_la_topologie_produit .pdf",
+    "Exercice_sur_les_suites_de_fonctions .pdf"
   ],
   "Maths_1/TD/TD 4 S.F": [
     "Corrigé.pdf",
@@ -3247,6 +3268,9 @@ window.INDEX_PDF_ALT = {
     "هل_الذكاء_الإصطناعي_نافع_أم_ضار__.pdf"
   ],
   "./Maths_2/Devoirs/2026_2027": [
+    "corrigé_dm 3 maths 2.pdf",
+    "corrigé_dm_1_maths_2.pdf",
+    "corrigé_dm_2_maths_2.pdf",
     "dm_1.pdf",
     "dm_2 .pdf",
     "dm_3.pdf"
@@ -3812,6 +3836,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/Concours Maroc MP 2003": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/centrale_maths_1_mp_2020": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -4971,7 +4999,11 @@ window.INDEX_PDF_ALT = {
   ],
   "./Maths_1/Devoirs/2026_2027": [
     "Corrigé ds 1.pdf",
+    "Corrigé_dm Topologie_et_rang_majoré.pdf",
+    "DM___Topologie_et_rang_majoré.pdf",
     "DS_EVN.pdf",
+    "corrigé_dm .pdf",
+    "corrigé_dm_1.pdf",
     "corrigé_ds_EVN.pdf",
     "dm_1.pdf",
     "dm__2.pdf",
@@ -5525,6 +5557,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_1/Archives/Devoirs/dm_intégration 2013": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_1/Archives/Devoirs/Concours Maroc 1998": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5622,6 +5658,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/Maroc tsi 2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/dm_evn 2009": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5930,7 +5970,9 @@ window.INDEX_PDF_ALT = {
     "Convergence_et_calcul_d_intégrales.pdf",
     "Corrigé_de_Calcul_d_intégrales .pdf",
     "Exercice sur les normes équivalentes.pdf",
-    "Exercice_sur_la_topologie_produit .pdf"
+    "Exercice_sur_la_connexité_par_arcs.pdf",
+    "Exercice_sur_la_topologie_produit .pdf",
+    "Exercice_sur_les_suites_de_fonctions .pdf"
   ],
   "./Maths_1/TD/TD 4 S.F": [
     "Corrigé.pdf",
