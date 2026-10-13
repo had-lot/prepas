@@ -1377,6 +1377,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "MPSI/Analyse/Archives/dm communs analyse_ algèbre/Petites_Mines_2008": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "MPSI/Analyse/Archives/dm communs analyse_ algèbre/dm 7": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -4634,6 +4638,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./MPSI/Analyse/Archives/dm communs analyse_ algèbre/CONCOURS COMMUN SUP 2002": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./MPSI/Analyse/Archives/dm communs analyse_ algèbre/Petites_Mines_2008": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
