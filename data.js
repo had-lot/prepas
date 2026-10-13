@@ -140,6 +140,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/dm_Mars_2021": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/Mines ponts 2004": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -3393,6 +3397,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/CNC 2001 – MP": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/dm_Mars_2021": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
