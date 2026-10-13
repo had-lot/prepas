@@ -1978,6 +1978,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
+  "Maths_1/Problemes/Problème 19": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
   "Maths_1/Problemes/Problème 7": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -5210,6 +5214,10 @@ window.INDEX_PDF_ALT = {
     "Énoncé.pdf"
   ],
   "./Maths_1/Problemes/Problème 2": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
+  "./Maths_1/Problemes/Problème 19": [
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
