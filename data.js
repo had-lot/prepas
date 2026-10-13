@@ -2426,6 +2426,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/Agrégation_interne_2007": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/Maroc tsi 2000": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2594,11 +2598,19 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/ENSAE_MP_97": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/CCP 1998": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/Concours CCP 2003": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/E3A MP 2007": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -2738,6 +2750,7 @@ window.INDEX_PDF = {
     "Continuité_des_applications_multilinéaires.pdf",
     "Convergence_et_calcul_d_intégrales.pdf",
     "Corrigé_de_Calcul_d_intégrales .pdf",
+    "Développement_asymptotique_de_la_série_harmonique.pdf",
     "Exercice sur les normes équivalentes.pdf",
     "Exercice_sur_la_connexité_par_arcs.pdf",
     "Exercice_sur_la_topologie_produit .pdf",
@@ -5665,6 +5678,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_1/Archives/Devoirs/Agrégation_interne_2007": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_1/Archives/Devoirs/Maroc tsi 2000": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5833,11 +5850,19 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_1/Archives/Devoirs/ENSAE_MP_97": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_1/Archives/Devoirs/CCP 1998": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/Concours CCP 2003": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/E3A MP 2007": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5977,6 +6002,7 @@ window.INDEX_PDF_ALT = {
     "Continuité_des_applications_multilinéaires.pdf",
     "Convergence_et_calcul_d_intégrales.pdf",
     "Corrigé_de_Calcul_d_intégrales .pdf",
+    "Développement_asymptotique_de_la_série_harmonique.pdf",
     "Exercice sur les normes équivalentes.pdf",
     "Exercice_sur_la_connexité_par_arcs.pdf",
     "Exercice_sur_la_topologie_produit .pdf",
