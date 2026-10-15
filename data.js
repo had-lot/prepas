@@ -596,6 +596,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/Concours_Maroc 2009___BCPST": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/ESIM 2001 – MP": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -1090,6 +1094,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "PC_PT/Archives/Devoirs/dm 2": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "PC_PT/Archives/Devoirs/CCP_Maths_PC_2013": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -2654,6 +2662,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/CCINP 2013 – Filière TSI": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/ds 2 2009": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -3860,6 +3872,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_2/Archives/Devoirs/Concours_Maroc 2009___BCPST": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_2/Archives/Devoirs/ESIM 2001 – MP": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -4354,6 +4370,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./PC_PT/Archives/Devoirs/dm 2": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./PC_PT/Archives/Devoirs/CCP_Maths_PC_2013": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5915,6 +5935,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/Examen 1 2018": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/CCINP 2013 – Filière TSI": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
