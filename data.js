@@ -2670,6 +2670,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/Examen 1 2014": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/Concours Spécial 1988": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5943,6 +5947,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/ds 2 2009": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/Examen 1 2014": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
