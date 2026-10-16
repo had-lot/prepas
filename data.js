@@ -300,6 +300,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/CCP_PSI_2_2009": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/Agrégation interne 2004": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -445,6 +449,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_2/Archives/Devoirs/ENS Lyon 1989": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_2/Archives/Devoirs/CCP_2009_MP__Maths_2": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -3584,6 +3592,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_2/Archives/Devoirs/CCP_PSI_2_2009": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_2/Archives/Devoirs/Agrégation interne 2004": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -3729,6 +3741,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/ENS Lyon 1989": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/CCP_2009_MP__Maths_2": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
