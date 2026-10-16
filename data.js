@@ -33,12 +33,14 @@ window.INDEX_PDF = {
     "هل_الذكاء_الإصطناعي_نافع_أم_ضار__.pdf"
   ],
   "Maths_2/Devoirs/2026_2027": [
+    "Corrigé_dm__4 Maths 2.pdf",
     "corrigé_dm 3 maths 2.pdf",
     "corrigé_dm_1_maths_2.pdf",
     "corrigé_dm_2_maths_2.pdf",
     "dm_1.pdf",
     "dm_2 .pdf",
-    "dm_3.pdf"
+    "dm_3.pdf",
+    "dm_4.pdf"
   ],
   "Maths_2/Devoirs/Concours blanc/cb 1": [
     "Corrigé.pdf",
@@ -3327,12 +3329,14 @@ window.INDEX_PDF_ALT = {
     "هل_الذكاء_الإصطناعي_نافع_أم_ضار__.pdf"
   ],
   "./Maths_2/Devoirs/2026_2027": [
+    "Corrigé_dm__4 Maths 2.pdf",
     "corrigé_dm 3 maths 2.pdf",
     "corrigé_dm_1_maths_2.pdf",
     "corrigé_dm_2_maths_2.pdf",
     "dm_1.pdf",
     "dm_2 .pdf",
-    "dm_3.pdf"
+    "dm_3.pdf",
+    "dm_4.pdf"
   ],
   "./Maths_2/Devoirs/Concours blanc/cb 1": [
     "Corrigé.pdf",
