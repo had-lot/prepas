@@ -1793,8 +1793,10 @@ window.INDEX_PDF = {
   "Maths_1/Devoirs/2026_2027": [
     "Corrigé ds 1.pdf",
     "Corrigé_dm Topologie_et_rang_majoré.pdf",
+    "Corrigé_problème de révision.pdf",
     "DM___Topologie_et_rang_majoré.pdf",
     "DS_EVN.pdf",
+    "Problème de révision.pdf",
     "corrigé_dm .pdf",
     "corrigé_dm_1.pdf",
     "corrigé_ds_EVN.pdf",
@@ -5085,8 +5087,10 @@ window.INDEX_PDF_ALT = {
   "./Maths_1/Devoirs/2026_2027": [
     "Corrigé ds 1.pdf",
     "Corrigé_dm Topologie_et_rang_majoré.pdf",
+    "Corrigé_problème de révision.pdf",
     "DM___Topologie_et_rang_majoré.pdf",
     "DS_EVN.pdf",
+    "Problème de révision.pdf",
     "corrigé_dm .pdf",
     "corrigé_dm_1.pdf",
     "corrigé_ds_EVN.pdf",
