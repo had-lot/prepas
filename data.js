@@ -34,13 +34,15 @@ window.INDEX_PDF = {
   ],
   "Maths_2/Devoirs/2026_2027": [
     "Corrigé_dm__4 Maths 2.pdf",
+    "Corrigé_ds_1_Maths_2_MP.pdf",
     "corrigé_dm 3 maths 2.pdf",
     "corrigé_dm_1_maths_2.pdf",
     "corrigé_dm_2_maths_2.pdf",
     "dm_1.pdf",
     "dm_2 .pdf",
     "dm_3.pdf",
-    "dm_4.pdf"
+    "dm_4.pdf",
+    "ds_1_Maths_2_MP.pdf"
   ],
   "Maths_2/Devoirs/Concours blanc/cb 1": [
     "Corrigé.pdf",
@@ -1216,6 +1218,10 @@ window.INDEX_PDF = {
     "Théorèmes_des_valeurs_initiale_et_finale.pdf",
     "Équation_différentielle_vérifiée_par_le_wronskien.pdf"
   ],
+  "MPSI/Analyse/Devoirs/2026_2027": [
+    "Corrigé_ds_1.pdf",
+    "ds_1_Analyse_16_10_2026.pdf"
+  ],
   "MPSI/Analyse/Devoirs/ds 2": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -1776,7 +1782,8 @@ window.INDEX_PDF = {
   "MPSI/Algebre/Divers": [
     "Déterminant_de_Cauchy.pdf",
     "Forme_canonique_d_une_isométrie_affine.pdf",
-    "Inégalité_de_Sylvester.pdf"
+    "Inégalité_de_Sylvester.pdf",
+    "Pivot_de_Gauss.pdf"
   ],
   "MPSI/Algebre/Cours": [
     "Chapitre_10_Algèbre.pdf",
@@ -1795,9 +1802,11 @@ window.INDEX_PDF = {
   "Maths_1/Devoirs/2026_2027": [
     "Corrigé ds 1.pdf",
     "Corrigé_dm Topologie_et_rang_majoré.pdf",
+    "Corrigé_du_problème_d_analyse .pdf",
     "Corrigé_problème de révision.pdf",
     "DM___Topologie_et_rang_majoré.pdf",
     "DS_EVN.pdf",
+    "Problème d'analyse.pdf",
     "Problème de révision.pdf",
     "corrigé_dm .pdf",
     "corrigé_dm_1.pdf",
@@ -3330,13 +3339,15 @@ window.INDEX_PDF_ALT = {
   ],
   "./Maths_2/Devoirs/2026_2027": [
     "Corrigé_dm__4 Maths 2.pdf",
+    "Corrigé_ds_1_Maths_2_MP.pdf",
     "corrigé_dm 3 maths 2.pdf",
     "corrigé_dm_1_maths_2.pdf",
     "corrigé_dm_2_maths_2.pdf",
     "dm_1.pdf",
     "dm_2 .pdf",
     "dm_3.pdf",
-    "dm_4.pdf"
+    "dm_4.pdf",
+    "ds_1_Maths_2_MP.pdf"
   ],
   "./Maths_2/Devoirs/Concours blanc/cb 1": [
     "Corrigé.pdf",
@@ -4512,6 +4523,10 @@ window.INDEX_PDF_ALT = {
     "Théorèmes_des_valeurs_initiale_et_finale.pdf",
     "Équation_différentielle_vérifiée_par_le_wronskien.pdf"
   ],
+  "./MPSI/Analyse/Devoirs/2026_2027": [
+    "Corrigé_ds_1.pdf",
+    "ds_1_Analyse_16_10_2026.pdf"
+  ],
   "./MPSI/Analyse/Devoirs/ds 2": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -5072,7 +5087,8 @@ window.INDEX_PDF_ALT = {
   "./MPSI/Algebre/Divers": [
     "Déterminant_de_Cauchy.pdf",
     "Forme_canonique_d_une_isométrie_affine.pdf",
-    "Inégalité_de_Sylvester.pdf"
+    "Inégalité_de_Sylvester.pdf",
+    "Pivot_de_Gauss.pdf"
   ],
   "./MPSI/Algebre/Cours": [
     "Chapitre_10_Algèbre.pdf",
@@ -5091,9 +5107,11 @@ window.INDEX_PDF_ALT = {
   "./Maths_1/Devoirs/2026_2027": [
     "Corrigé ds 1.pdf",
     "Corrigé_dm Topologie_et_rang_majoré.pdf",
+    "Corrigé_du_problème_d_analyse .pdf",
     "Corrigé_problème de révision.pdf",
     "DM___Topologie_et_rang_majoré.pdf",
     "DS_EVN.pdf",
+    "Problème d'analyse.pdf",
     "Problème de révision.pdf",
     "corrigé_dm .pdf",
     "corrigé_dm_1.pdf",
