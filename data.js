@@ -2892,6 +2892,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/Examen_1_1999": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/centrale_1985": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -6202,6 +6206,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/Concours_ENS_Tunisie_2019": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/Examen_1_1999": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
