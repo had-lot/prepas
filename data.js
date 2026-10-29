@@ -2368,6 +2368,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/Examen_1_2009": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/ENPC 1996": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5674,6 +5678,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/Centrale 2001 – PC Maths 1": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/Examen_1_2009": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
