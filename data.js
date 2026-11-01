@@ -926,6 +926,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
+  "News/ENS 2026/X_ENS_2026_MP_MD": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "News/ENS 2026/Maths_D MP": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -2568,6 +2572,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/X_ENS_MP_2022": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/Examen 2 2019": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2709,6 +2717,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_1/Archives/Devoirs/HEC 2001": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_1/Archives/Devoirs/X_ENS_2024_MP": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -4273,6 +4285,10 @@ window.INDEX_PDF_ALT = {
   "./News/ENS 2026/Maths PSI": [
     "Corrigé.pdf",
     "Énoncé.pdf"
+  ],
+  "./News/ENS 2026/X_ENS_2026_MP_MD": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
   ],
   "./News/ENS 2026/Maths_D MP": [
     "Corrigé.pdf",
@@ -5916,6 +5932,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_1/Archives/Devoirs/X_ENS_MP_2022": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_1/Archives/Devoirs/Examen 2 2019": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -6057,6 +6077,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/HEC 2001": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/X_ENS_2024_MP": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
