@@ -1810,6 +1810,10 @@ window.INDEX_PDF = {
   "PC_PT/Archives/TD": [
     "Fascicule de TD 2021_2022.pdf"
   ],
+  "PC_PT/Archives/Devoirs/ENS_Lyon_2023": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "PC_PT/Archives/Devoirs/dm 5": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -1918,6 +1922,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "PC_PT/Archives/Devoirs/ENS_Lyon_2025": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "PC_PT/Archives/Devoirs/ESSEC MBA 2004": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -1947,6 +1955,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "PC_PT/Archives/Devoirs/Banque PT 1997": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "PC_PT/Archives/Devoirs/ENS_Lyon_2024": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5170,6 +5182,10 @@ window.INDEX_PDF_ALT = {
   "./PC_PT/Archives/TD": [
     "Fascicule de TD 2021_2022.pdf"
   ],
+  "./PC_PT/Archives/Devoirs/ENS_Lyon_2023": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./PC_PT/Archives/Devoirs/dm 5": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5278,6 +5294,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./PC_PT/Archives/Devoirs/ENS_Lyon_2025": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./PC_PT/Archives/Devoirs/ESSEC MBA 2004": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5307,6 +5327,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./PC_PT/Archives/Devoirs/Banque PT 1997": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./PC_PT/Archives/Devoirs/ENS_Lyon_2024": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
