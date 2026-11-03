@@ -1493,6 +1493,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/ENS_Lyon_2022": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/Mines_Ponts_2000": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -4862,6 +4866,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/Ens_1979": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/ENS_Lyon_2022": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
