@@ -1850,6 +1850,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "PC_PT/Archives/Devoirs/ENS_Lyon_2021": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "PC_PT/Archives/Devoirs/Mines ponts 2004": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5223,6 +5227,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./PC_PT/Archives/Devoirs/ds 7": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./PC_PT/Archives/Devoirs/ENS_Lyon_2021": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
