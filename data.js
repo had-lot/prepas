@@ -150,6 +150,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "PCSI_PTSI/Archives/Devoirs/Examen_19_05_2026": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "PCSI_PTSI/Cours": [
     "Chapitre_10_Géométrie_du_plan_et_de_l_espace.pdf",
     "Chapitre_11_Polynômes.pdf",
@@ -1675,6 +1679,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "MPSI/Analyse/Archives/Examen_19_05_2026": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "MPSI/Analyse/Archives/ds 6": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -2183,6 +2191,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_2/Archives/Devoirs/X PC 2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_2/Archives/Devoirs/ds_2_13_03_2026": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -3538,6 +3550,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./PCSI_PTSI/Archives/Devoirs/ds 5": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./PCSI_PTSI/Archives/Devoirs/Examen_19_05_2026": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -5066,6 +5082,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./MPSI/Analyse/Archives/Examen_19_05_2026": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./MPSI/Analyse/Archives/ds 6": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -5574,6 +5594,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/X PC 2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/ds_2_13_03_2026": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
