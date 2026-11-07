@@ -239,8 +239,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "PCSI_PTSI/Devoirs/2026_2027": [
+    "Corrigé_ds_1_le_03_11_2026.pdf",
     "corrigé_ds_1.pdf",
-    "ds_1.pdf"
+    "ds_1.pdf",
+    "ds_1_du__03_11_2026.pdf"
   ],
   "PCSI_PTSI/Devoirs/ds 6": [
     "Corrigé.pdf",
@@ -3642,8 +3644,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./PCSI_PTSI/Devoirs/2026_2027": [
+    "Corrigé_ds_1_le_03_11_2026.pdf",
     "corrigé_ds_1.pdf",
-    "ds_1.pdf"
+    "ds_1.pdf",
+    "ds_1_du__03_11_2026.pdf"
   ],
   "./PCSI_PTSI/Devoirs/ds 6": [
     "Corrigé.pdf",
