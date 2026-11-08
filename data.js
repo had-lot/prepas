@@ -1133,6 +1133,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/ÉNS_de_Lyon_2014_": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/ENPC 1996": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2212,6 +2216,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/ENS_Lyon_2010": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/ENSAIT 2000": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2484,6 +2492,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/ENS_Lyon_2012": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_2/Archives/Devoirs/ENSAE 1988": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2713,6 +2725,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "Maths_2/Archives/Devoirs/ENGEES_2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "Maths_2/Archives/Devoirs/ENS_Lyon_2011": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -4544,6 +4560,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_1/Archives/Devoirs/ÉNS_de_Lyon_2014_": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_1/Archives/Devoirs/ENPC 1996": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5623,6 +5643,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_2/Archives/Devoirs/ENS_Lyon_2010": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_2/Archives/Devoirs/ENSAIT 2000": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -5895,6 +5919,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "./Maths_2/Archives/Devoirs/ENS_Lyon_2012": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./Maths_2/Archives/Devoirs/ENSAE 1988": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -6124,6 +6152,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_2/Archives/Devoirs/ENGEES_2000": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/ENS_Lyon_2011": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
