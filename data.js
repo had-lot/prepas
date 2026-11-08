@@ -2772,6 +2772,7 @@ window.INDEX_PDF = {
   "Maths_2/Devoirs/2026_2027": [
     "Corrigé_dm__4 Maths 2.pdf",
     "Corrigé_ds_1_Maths_2_MP.pdf",
+    "Corrigé_ds_1_le_06_11_2026.pdf",
     "corrigé_dm 3 maths 2.pdf",
     "corrigé_dm_1_maths_2.pdf",
     "corrigé_dm_2_maths_2.pdf",
@@ -2779,7 +2780,8 @@ window.INDEX_PDF = {
     "dm_2 .pdf",
     "dm_3.pdf",
     "dm_4.pdf",
-    "ds_1_Maths_2_MP.pdf"
+    "ds_1_Maths_2_MP.pdf",
+    "ds_1_du_06_11_2026.pdf"
   ],
   "Maths_2/Devoirs/Concours blanc/cb 1": [
     "Corrigé.pdf",
@@ -3281,6 +3283,10 @@ window.INDEX_PDF = {
     "Sujet.pdf"
   ],
   "PC_PT/Archives/Devoirs/ENS_Lyon_2021": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "PC_PT/Archives/Devoirs/ÉNS_de_Lyon_2017": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -6177,6 +6183,7 @@ window.INDEX_PDF_ALT = {
   "./Maths_2/Devoirs/2026_2027": [
     "Corrigé_dm__4 Maths 2.pdf",
     "Corrigé_ds_1_Maths_2_MP.pdf",
+    "Corrigé_ds_1_le_06_11_2026.pdf",
     "corrigé_dm 3 maths 2.pdf",
     "corrigé_dm_1_maths_2.pdf",
     "corrigé_dm_2_maths_2.pdf",
@@ -6184,7 +6191,8 @@ window.INDEX_PDF_ALT = {
     "dm_2 .pdf",
     "dm_3.pdf",
     "dm_4.pdf",
-    "ds_1_Maths_2_MP.pdf"
+    "ds_1_Maths_2_MP.pdf",
+    "ds_1_du_06_11_2026.pdf"
   ],
   "./Maths_2/Devoirs/Concours blanc/cb 1": [
     "Corrigé.pdf",
@@ -6686,6 +6694,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./PC_PT/Archives/Devoirs/ENS_Lyon_2021": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./PC_PT/Archives/Devoirs/ÉNS_de_Lyon_2017": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
