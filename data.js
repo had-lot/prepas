@@ -2608,6 +2608,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_2/Archives/Devoirs/ENS_Lyon_2007": [
+    "Corrigé.pdf",
+    "ENS_Lyon_2007.pdf"
+  ],
   "Maths_2/Archives/Devoirs/LC 112 – SESSION 2001": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -6034,6 +6038,10 @@ window.INDEX_PDF_ALT = {
   "./Maths_2/Archives/Devoirs/CCP 1996": [
     "Corrigé.pdf",
     "Sujet.pdf"
+  ],
+  "./Maths_2/Archives/Devoirs/ENS_Lyon_2007": [
+    "Corrigé.pdf",
+    "ENS_Lyon_2007.pdf"
   ],
   "./Maths_2/Archives/Devoirs/LC 112 – SESSION 2001": [
     "Corrigé.pdf",
