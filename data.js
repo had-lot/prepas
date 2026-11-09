@@ -1529,6 +1529,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
+  "MPSI/Analyse/Archives/Devoir_surveillé_n_1_2025": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "MPSI/Analyse/Archives/dm Probas": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -1996,8 +2000,10 @@ window.INDEX_PDF = {
   "MPSI/Algebre/Devoirs/2026_2027": [
     "Corrigé_dm_1_Algèbre.pdf",
     "Corrigé_ds_1_Algèbre.pdf",
+    "Corrigé_ds_n___1_le_06_11_2026.pdf",
     "dm_1_algèbre_15_11_2026.pdf",
-    "ds_1_algèbre_30_09_2026.pdf"
+    "ds_1_algèbre_30_09_2026.pdf",
+    "ds_n___1_le_06_11_2026.pdf"
   ],
   "MPSI/Algebre/Devoirs/ds 11": [
     "Corrigé.pdf",
@@ -4960,6 +4966,10 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
+  "./MPSI/Analyse/Archives/Devoir_surveillé_n_1_2025": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "./MPSI/Analyse/Archives/dm Probas": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -5427,8 +5437,10 @@ window.INDEX_PDF_ALT = {
   "./MPSI/Algebre/Devoirs/2026_2027": [
     "Corrigé_dm_1_Algèbre.pdf",
     "Corrigé_ds_1_Algèbre.pdf",
+    "Corrigé_ds_n___1_le_06_11_2026.pdf",
     "dm_1_algèbre_15_11_2026.pdf",
-    "ds_1_algèbre_30_09_2026.pdf"
+    "ds_1_algèbre_30_09_2026.pdf",
+    "ds_n___1_le_06_11_2026.pdf"
   ],
   "./MPSI/Algebre/Devoirs/ds 11": [
     "Corrigé.pdf",
