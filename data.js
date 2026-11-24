@@ -700,6 +700,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
+  "Maths_1/Archives/Devoirs/Centrale_Maths_2_PSI_2025": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
   "Maths_1/Archives/Devoirs/ENSAE_1994": [
     "Corrigé.pdf",
     "Sujet.pdf"
@@ -2618,6 +2622,7 @@ window.INDEX_PDF = {
     "Corrigé_dm__4 Maths 2.pdf",
     "Corrigé_ds_1_Maths_2_MP.pdf",
     "Corrigé_ds_1_le_06_11_2026.pdf",
+    "Corrigé_du_dm_5.pdf",
     "Corrigé_du_problème___Théorèmes_de_Sylow.pdf",
     "Corrigé_du_problème_sur_les_anneaux.pdf",
     "Problème_sur_les_anneaux.pdf",
@@ -2629,6 +2634,7 @@ window.INDEX_PDF = {
     "dm_2 .pdf",
     "dm_3.pdf",
     "dm_4.pdf",
+    "dm_5.pdf",
     "ds_1_Maths_2_MP.pdf",
     "ds_1_du_06_11_2026.pdf"
   ],
@@ -2641,6 +2647,10 @@ window.INDEX_PDF = {
     "Énoncé.pdf"
   ],
   "Maths_2/Archives/TD/TD 6_2008": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
+  "Maths_2/Archives/TD/TD 1 2022": [
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
@@ -4143,6 +4153,10 @@ window.INDEX_PDF_ALT = {
     "Sujet.pdf"
   ],
   "./Maths_1/Archives/Devoirs/Concours Maroc PSI 2004": [
+    "Corrigé.pdf",
+    "Sujet.pdf"
+  ],
+  "./Maths_1/Archives/Devoirs/Centrale_Maths_2_PSI_2025": [
     "Corrigé.pdf",
     "Sujet.pdf"
   ],
@@ -6064,6 +6078,7 @@ window.INDEX_PDF_ALT = {
     "Corrigé_dm__4 Maths 2.pdf",
     "Corrigé_ds_1_Maths_2_MP.pdf",
     "Corrigé_ds_1_le_06_11_2026.pdf",
+    "Corrigé_du_dm_5.pdf",
     "Corrigé_du_problème___Théorèmes_de_Sylow.pdf",
     "Corrigé_du_problème_sur_les_anneaux.pdf",
     "Problème_sur_les_anneaux.pdf",
@@ -6075,6 +6090,7 @@ window.INDEX_PDF_ALT = {
     "dm_2 .pdf",
     "dm_3.pdf",
     "dm_4.pdf",
+    "dm_5.pdf",
     "ds_1_Maths_2_MP.pdf",
     "ds_1_du_06_11_2026.pdf"
   ],
@@ -6087,6 +6103,10 @@ window.INDEX_PDF_ALT = {
     "Énoncé.pdf"
   ],
   "./Maths_2/Archives/TD/TD 6_2008": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
+  "./Maths_2/Archives/TD/TD 1 2022": [
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
