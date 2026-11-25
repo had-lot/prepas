@@ -25,7 +25,7 @@ jobs:
       with:
         fetch-depth: 0
         persist-credentials: true
-
+        lfs: true 
     - name: Configurer Python
       uses: actions/setup-python@v5
       with:
