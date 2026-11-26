@@ -19,17 +19,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps:
-        - name: Récupérer le code du dépôt
+      steps:
+    - name: Récupérer le code du dépôt
       uses: actions/checkout@v4
       with:
         fetch-depth: 0
         persist-credentials: true
-        lfs: false        
+        lfs: false
+
     - name: Télécharger les fichiers LFS
       run: |
         git lfs install --local
         git lfs pull
+
     - name: Configurer Python
       uses: actions/setup-python@v5
       with:
@@ -44,7 +46,6 @@ jobs:
         with open("index.html", "r", encoding="utf-8") as f:
             contenu = f.read()
         
-        # Ajouter data.js avant chargeur.js (si pas déjà présents)
         if "data.js" not in contenu:
             contenu = contenu.replace(
                 "</body>",
