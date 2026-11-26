@@ -70,7 +70,7 @@
       html += "<div class='file-list'><ul>";
       for (const f of fichiers) {
         const encodedPath = path.split("/").map(encodeURIComponent).join("/");
-        const rawUrl = `https://media.githubusercontent.com/media/had-lot/prepas/main/${encodedPath}/${encodeURIComponent(f)}`;
+       const rawUrl = `${encodedPath}/${encodeURIComponent(f)}`;
         html += `<li>📄 <a href="${rawUrl}" target="_blank" style="color:#2a5298; text-decoration:none;">${f.replace(/\.pdf$/i, "")}</a></li>`;
       }
       html += "</ul></div>";
