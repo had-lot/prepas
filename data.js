@@ -2656,6 +2656,10 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
+  "Maths_2/Archives/TD/TD 2 2022": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
   "Maths_2/Archives/TD/TD 1 2022": [
     "Corrigé.pdf",
     "Énoncé.pdf"
@@ -6115,6 +6119,10 @@ window.INDEX_PDF_ALT = {
     "Énoncé.pdf"
   ],
   "./Maths_2/Archives/TD/TD 6_2008": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
+  "./Maths_2/Archives/TD/TD 2 2022": [
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
