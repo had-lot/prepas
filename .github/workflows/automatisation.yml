@@ -19,7 +19,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-          steps:
+    steps:
     - name: Récupérer le code du dépôt
       uses: actions/checkout@v4
       with:
@@ -35,7 +35,6 @@ jobs:
     - name: Configurer Python
       uses: actions/setup-python@v5
       with:
- 
         python-version: '3.x'
 
     - name: Exécuter le script d'indexation
@@ -72,6 +71,7 @@ jobs:
           echo "ℹ Aucun changement à committer"
         else
           git commit -m "🔄 Update index + data + chargeur [skip ci]"
+          git pull --rebase origin ${{ github.ref_name }}
           git push origin ${{ github.ref_name }}
           echo "✅ Fichiers mis à jour"
         fi
