@@ -350,7 +350,7 @@ async function chargerDossier(containerId, path) {
             html += `<div class="file-list"><ul>`;
             for (const p of pdfs) {
                 const encodedPath = path.split('/').map(segment => encodeURIComponent(segment)).join('/');
-                const rawUrl = `https://media.githubusercontent.com/media/${USER}/${REPO}/${BRANCH}/${encodedPath}/${p.name}`;
+              const rawUrl = `${encodedPath}/${p.name}`;
                 html += `<li>📄 <a href="${rawUrl}" target="_blank" style="color:#2a5298; text-decoration:none;">${p.name.replace(/\.pdf$/i, "")}</a></li>`;
             }
             html += `</ul></div>`;
