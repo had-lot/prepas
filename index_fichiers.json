@@ -497,6 +497,10 @@
         "Corrigé.pdf",
         "Énoncé.pdf"
     ],
+    "Maths_1/Devoirs/ds 6": [
+        "Corrigé.pdf",
+        "Sujet.pdf"
+    ],
     "Maths_1/Devoirs/dm 19": [
         "Corrigé.pdf",
         "Énoncé.pdf"
@@ -632,6 +636,7 @@
         "Énoncé.pdf"
     ],
     "Maths_1/Devoirs/2026_2027": [
+        "Comportement asymptotique d’une série alternée.pdf",
         "Corrigé ds 1.pdf",
         "Corrigé__ds_21_10__2026.pdf",
         "Corrigé_dm Topologie_et_rang_majoré.pdf",
@@ -653,7 +658,8 @@
         "dm__2.pdf",
         "ds 1.pdf",
         "ds_1_03 Novembre_2026.pdf",
-        "ds_21_10_2026.pdf"
+        "ds_21_10_2026.pdf",
+        "Étude_de_deux_séries_de_fonctions l'une alternée.pdf"
     ],
     "Maths_1/Devoirs/dm 11": [
         "Énoncé_et_corrigé_du_DL3.pdf"
