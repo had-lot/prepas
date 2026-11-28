@@ -647,6 +647,8 @@ window.INDEX_PDF = {
     "DM___Topologie_et_rang_majoré.pdf",
     "DS_EVN.pdf",
     "Deux_séries_de_fonctions_trigonométriques_jumelles_traitées_indépendamment.pdf",
+    "Problème corrigé sur les séries de Lambert.pdf",
+    "Problème corrigé Étude_d_une_série_factorielle.pdf",
     "Problème d'analyse.pdf",
     "Problème de révision.pdf",
     "barème_ds_1 du 03_11_2026.pdf",
@@ -2666,7 +2668,19 @@ window.INDEX_PDF = {
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
+  "Maths_2/Archives/TD/TD 6 2022": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
   "Maths_2/Archives/TD/TD 1 2022": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
+  "Maths_2/Archives/TD/TD 3 2022": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
+  "Maths_2/Archives/TD/TD 4 2022": [
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
@@ -4119,6 +4133,8 @@ window.INDEX_PDF_ALT = {
     "DM___Topologie_et_rang_majoré.pdf",
     "DS_EVN.pdf",
     "Deux_séries_de_fonctions_trigonométriques_jumelles_traitées_indépendamment.pdf",
+    "Problème corrigé sur les séries de Lambert.pdf",
+    "Problème corrigé Étude_d_une_série_factorielle.pdf",
     "Problème d'analyse.pdf",
     "Problème de révision.pdf",
     "barème_ds_1 du 03_11_2026.pdf",
@@ -6138,7 +6154,19 @@ window.INDEX_PDF_ALT = {
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
+  "./Maths_2/Archives/TD/TD 6 2022": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
   "./Maths_2/Archives/TD/TD 1 2022": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
+  "./Maths_2/Archives/TD/TD 3 2022": [
+    "Corrigé.pdf",
+    "Énoncé.pdf"
+  ],
+  "./Maths_2/Archives/TD/TD 4 2022": [
     "Corrigé.pdf",
     "Énoncé.pdf"
   ],
